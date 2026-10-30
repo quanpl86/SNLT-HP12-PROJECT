@@ -1,0 +1,9 @@
+# Hệ điều hành, IDE và môi trường cục bộ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+.env
+.env.*
+
