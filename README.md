@@ -2,6 +2,11 @@
 
 **Học phần 12 · 12 bài × 110 phút · Quiz tại nhà.** Sản phẩm cuối của hành trình HP09 (Figma) → HP10 (HTML/CSS) → HP11 (JavaScript nhập môn) → HP12 (tích hợp, lưu nháp, tìm kiếm, lọc, kiểm thử và phát hành).
 
+## Hồ sơ chương trình — Curriculum Master HP12
+Bộ hồ sơ nguồn quản lý học phần nằm tại **[curriculum/README.md](curriculum/README.md)**. Từ đây có [4 ULO](curriculum/02_ULO_MASTER.md), [10 LO](curriculum/03_LO_MASTER.md), [15 K-ID](curriculum/04_KNOWLEDGE_MASTER.md), [12 bài và thời lượng](curriculum/05_SCOPE_AND_SEQUENCE.md), [mô tả sản phẩm](curriculum/06_LESSON_PRODUCT_MASTER.md), [ma trận truy vết](curriculum/07_TRACEABILITY_MATRIX.md) và [kế thừa HP09–HP11](curriculum/08_HP09_HP12_ALIGNMENT.md).
+
+**Quy tắc R&D:** B10 xuất bản GitHub Pages (LO08–LO09; K14–K15), B11 kiểm thử/sửa lỗi không có công nghệ mới. HP11 giữ nguyên khung LMS cũ. Tên sản phẩm/câu chuyện được đặt trong chủ đề **Sắc Việt**.
+
 ## Chạy ngay
 - Mở `index.html` với VS Code Live Server hoặc chạy `python -m http.server 8000` ở thư mục gốc rồi truy cập `http://localhost:8000/`.
 - Không cần npm, tài khoản hoặc Internet để chạy cục bộ.

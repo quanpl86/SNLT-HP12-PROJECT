@@ -1,5 +1,8 @@
 # HP12 – B11: Dự án cuối khóa — Kiểm thử và cải tiến sau xuất bản
 
+> **Curriculum Master HP12 v3.0:** **Ôn LO08–LO09** · **Tái dùng K01–K15** · Kiểm thử và cải tiến; không có kiến thức mới. Xem [LO Master](../../curriculum/03_LO_MASTER.md), [Knowledge Master](../../curriculum/04_KNOWLEDGE_MASTER.md), [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md) và [Product Master](../../curriculum/06_LESSON_PRODUCT_MASTER.md). Bối cảnh sản phẩm là Blog **Sắc Việt**.
+
+
 **Bối cảnh “Sắc Việt”:** Kiểm thử bản Sắc Việt đã công bố, sửa lỗi nội dung/giao diện/tìm kiếm và phát hành phiên bản cải tiến.
 
 **Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
@@ -27,4 +30,3 @@ Bài học là một phần trong hành trình kết thúc bốn học phần We
 **Không thuộc phạm vi bắt buộc:** backend, database, framework hay công nghệ mới vượt mục tiêu.
 
 **Mở rộng:** Mời bạn trong lớp thử một hành vi người dùng và ghi phản hồi để cải tiến UX.
-

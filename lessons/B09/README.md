@@ -1,5 +1,8 @@
 # HP12 – B09: Ôn tập 2 — Kiểm thử chức năng
 
+> **Curriculum Master HP12 v3.0:** **Ôn LO04–LO07** · **Ôn K07–K13** · Ôn tập/QA, không có kiến thức cốt lõi mới. Xem [LO Master](../../curriculum/03_LO_MASTER.md), [Knowledge Master](../../curriculum/04_KNOWLEDGE_MASTER.md), [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md) và [Product Master](../../curriculum/06_LESSON_PRODUCT_MASTER.md). Bối cảnh sản phẩm là Blog **Sắc Việt**.
+
+
 **Bối cảnh “Sắc Việt”:** Kiểm thử tìm Hội An/Huế, lưu nháp giới thiệu địa danh và các chức năng đã học.
 
 **Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
@@ -27,4 +30,3 @@ Bài học là một phần trong hành trình kết thúc bốn học phần We
 **Không thuộc phạm vi bắt buộc:** backend, database, framework hay công nghệ mới vượt mục tiêu.
 
 **Mở rộng:** Kiểm thử thêm một kích thước màn hình 375px và ghi minh chứng.
-

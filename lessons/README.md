@@ -29,3 +29,21 @@ Tại thư mục gốc repository: `python -m http.server 8000`, sau đó mở `
 
 ## Bối cảnh xuyên suốt
 Tất cả ví dụ và dữ liệu mẫu đều xoay quanh **văn hóa, di sản và địa danh Việt Nam**. B06 tìm bài theo tên Hội An/Huế; B07 phân loại Di sản, Thiên nhiên và Văn hóa; B05 viết bản nháp giới thiệu một nơi chốn hoặc nét văn hóa. Các LOs và cơ chế JavaScript không thay đổi.
+
+## Ma trận LO/K-ID nhanh
+| Bài | LO | K-ID thuộc bài / tái sử dụng |
+|---|---|---|
+| [B01](B01/) | LO01 | K01; K02 |
+| [B02](B02/) | LO02 | K03; K04 |
+| [B03](B03/) | LO03 | K05; K06 |
+| [B04](B04/) | Ôn LO01–LO03 | Ôn K01–K06 |
+| [B05](B05/) | LO04 | K07; K08 |
+| [B06](B06/) | LO05 | K09; K10; K11 |
+| [B07](B07/) | LO06 | K12 |
+| [B08](B08/) | LO07 | K13 |
+| [B09](B09/) | Ôn LO04–LO07 | Ôn K07–K13 |
+| [B10](B10/) | LO08; LO09 | K14 NEW; K15 INTEGRATE; tái dùng K01–K13 |
+| [B11](B11/) | Ôn LO08–LO09 | Tái dùng K01–K15 |
+| [B12](B12/) | LO10 | Vận dụng K01–K15 |
+
+Tham khảo [Curriculum Master](../curriculum/README.md), [LO Master](../curriculum/03_LO_MASTER.md), [Knowledge Master](../curriculum/04_KNOWLEDGE_MASTER.md).

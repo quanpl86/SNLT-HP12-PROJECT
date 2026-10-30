@@ -1,5 +1,8 @@
 # HP12 – B12: Dự án cuối khóa — Chia sẻ dự án
 
+> **Curriculum Master HP12 v3.0:** **LO10** · **Vận dụng K01–K15** · Showcase tổng kết bốn học phần. Xem [LO Master](../../curriculum/03_LO_MASTER.md), [Knowledge Master](../../curriculum/04_KNOWLEDGE_MASTER.md), [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md) và [Product Master](../../curriculum/06_LESSON_PRODUCT_MASTER.md). Bối cảnh sản phẩm là Blog **Sắc Việt**.
+
+
 **Bối cảnh “Sắc Việt”:** Trình diễn quá trình dùng Figma, HTML/CSS, JavaScript để tạo và chia sẻ Blog Sắc Việt về văn hóa và địa danh Việt Nam.
 
 **Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
@@ -27,4 +30,3 @@ Bài học là một phần trong hành trình kết thúc bốn học phần We
 **Không thuộc phạm vi bắt buộc:** backend, database, framework hay công nghệ mới vượt mục tiêu.
 
 **Mở rộng:** Chuẩn bị video thuyết trình ngắn không để lộ thông tin cá nhân.
-

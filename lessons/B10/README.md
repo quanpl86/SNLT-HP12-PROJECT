@@ -1,5 +1,8 @@
 # HP12 – B10: Dự án cuối khóa — Hoàn thiện và xuất bản Web Blog
 
+> **Curriculum Master HP12 v3.0:** **LO08; LO09** · **K14; K15 (tái dùng K01–K13)** · B10 sở hữu 2 LO, có 1 kiến thức NEW là K14 GitHub Pages. Xem [LO Master](../../curriculum/03_LO_MASTER.md), [Knowledge Master](../../curriculum/04_KNOWLEDGE_MASTER.md), [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md) và [Product Master](../../curriculum/06_LESSON_PRODUCT_MASTER.md). Bối cảnh sản phẩm là Blog **Sắc Việt**.
+
+
 **Bối cảnh “Sắc Việt”:** Hoàn thiện và xuất bản website Sắc Việt qua GitHub Pages ở bài 10; không tạo thêm chức năng ngoài yêu cầu.
 
 **Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
@@ -27,4 +30,3 @@ Bài học là một phần trong hành trình kết thúc bốn học phần We
 **Không thuộc phạm vi bắt buộc:** backend, database, framework hay công nghệ mới vượt mục tiêu.
 
 **Mở rộng:** Thêm liên kết giới thiệu dự án HP09–HP11 ở trang About rồi tạo commit.
-
