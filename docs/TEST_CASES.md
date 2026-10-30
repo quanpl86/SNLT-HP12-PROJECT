@@ -19,9 +19,8 @@
 | T15 | Tại URL GitHub Pages sau khi bật | Các liên kết và asset hoạt động |
 | T16 | B11 cập nhật một file/commit | Phiên bản công khai phản ánh cập nhật khi triển khai hoàn tất |
 
-**Biểu mẫu ghi bằng chứng:** ID – Ngày – Pass/Fail – Ảnh/chú thích – Nguyên nhân – Sửa lỗi – Kết quả kiểm thử lại. Không đánh dấu T15/T16 PASS khi chưa thực tế xuất bản.
-
-
 | T17 | Chọn Thiên nhiên, tìm `Tràng An` | Chỉ bài Tràng An phù hợp |
 | T18 | Chọn Văn hóa, tìm `Huế` | Không có kết quả và có thông báo rõ |
 | T19 | Mở bài Hội An/Huế/Hạ Long/Tràng An | Liên kết nguồn UNESCO mở được bằng URL tương ứng |
+
+**Biểu mẫu ghi bằng chứng:** ID – Ngày – Pass/Fail – Ảnh/chú thích – Nguyên nhân – Sửa lỗi – Kết quả kiểm thử lại. Không đánh dấu T15/T16 PASS khi chưa thực tế xuất bản.
