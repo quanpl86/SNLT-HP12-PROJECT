@@ -5,8 +5,8 @@
 3. Mở `http://localhost:8000/lessons/B06/` (nếu đổi cổng, điều chỉnh URL).
 4. Quan sát giao diện trước khi thao tác và đọc mô tả yêu cầu trên trang.
 5. Thực hiện các thao tác dưới đây, ghi kết quả thực tế:
-   1. Tìm Figma còn đúng Card Figma.
-   2. Tìm chữ thường javascript vẫn tìm được JavaScript.
+   1. Tìm Hội An hiển thị đúng Card Phố cổ Hội An.
+   2. Tìm chữ thường huế vẫn thấy Card Quần thể di tích Cố đô Huế.
    3. Từ khóa không tồn tại hiển thị thông báo rỗng.
    4. Xóa từ khóa hiển thị lại cả bốn Card.
 6. Nếu chức năng không chạy, mở DevTools (F12) → Console, kiểm tra URL file, selector và lỗi JS.

@@ -1,4 +1,4 @@
-# Danh mục 12 dự án bài học HP12
+# Danh mục 12 dự án bài học HP12 — Sắc Việt
 
 Mỗi thư mục **B01–B12** là một mini project độc lập, chứa: `index.html`, mã nguồn `src/`, ảnh `assets/`, và 6 tài liệu Markdown (giới thiệu, kiến thức, xây dựng từng bước, chạy/tương tác, kiểm thử, sơ đồ source).
 
@@ -26,3 +26,6 @@ Tại thư mục gốc repository: `python -m http.server 8000`, sau đó mở `
 - B04/B09/B11 là vận dụng/kiểm thử; không tăng kiến thức công nghệ lõi.
 - 12 bài × 110 phút; Quiz thực hiện tại nhà.
 
+
+## Bối cảnh xuyên suốt
+Tất cả ví dụ và dữ liệu mẫu đều xoay quanh **văn hóa, di sản và địa danh Việt Nam**. B06 tìm bài theo tên Hội An/Huế; B07 phân loại Di sản, Thiên nhiên và Văn hóa; B05 viết bản nháp giới thiệu một nơi chốn hoặc nét văn hóa. Các LOs và cơ chế JavaScript không thay đổi.

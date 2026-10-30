@@ -3,7 +3,7 @@
 **Tên sản phẩm:** Blog Keyword Search.
 
 ## Bối cảnh và giá trị
-Bài này giúp học sinh chuyển từ ví dụ JavaScript đã học ở HP11 sang một thành phần thực tế trên website từ HP10. **Yêu cầu quan sát được:** Xây dựng tìm kiếm theo tiêu đề cho một danh sách Blog Card đã có và xử lý trường hợp không có kết quả.
+Bài học sử dụng dữ liệu về Phố cổ Hội An, Cố đô Huế, Vịnh Hạ Long – Cát Bà và múa rối nước để vận dụng JavaScript đã học ở HP11 trên HTML/CSS từ HP10. **Yêu cầu quan sát được:** Xây dựng tìm kiếm theo tiêu đề cho một danh sách Blog Card đã có và xử lý trường hợp không có kết quả.
 
 ## Đầu vào kế thừa
 HP11: vòng lặp và if; HP12 B02: DOM; B03: sự kiện.
@@ -16,8 +16,8 @@ HP11: vòng lặp và if; HP12 B02: DOM; B03: sự kiện.
 - `KNOWLEDGE.md`, `BUILD_STEPS.md`, `RUN_AND_INTERACT.md`, `TEST_CASES.md`, `SOURCE_MAP.md`: học liệu và kiểm thử.
 
 ## Sản phẩm đạt yêu cầu
-1. Tìm Figma còn đúng Card Figma.
-2. Tìm chữ thường javascript vẫn tìm được JavaScript.
+1. Tìm Hội An hiển thị đúng Card Phố cổ Hội An.
+2. Tìm chữ thường huế vẫn thấy Card Quần thể di tích Cố đô Huế.
 3. Từ khóa không tồn tại hiển thị thông báo rỗng.
 4. Xóa từ khóa hiển thị lại cả bốn Card.
 

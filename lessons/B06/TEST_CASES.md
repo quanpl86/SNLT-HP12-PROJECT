@@ -2,8 +2,8 @@
 
 | ID | Hành động / điều kiện | Kết quả đạt | Ghi chú Pass/Fail |
 |---|---|---|---|
-| B06-T01 | Tìm Figma còn đúng Card Figma. | Quan sát được hành vi mô tả, không có lỗi cản trở | Chưa thực hiện |
-| B06-T02 | Tìm chữ thường javascript vẫn tìm được JavaScript. | Quan sát được hành vi mô tả, không có lỗi cản trở | Chưa thực hiện |
+| B06-T01 | Tìm Hội An hiển thị đúng Card Phố cổ Hội An. | Quan sát được hành vi mô tả, không có lỗi cản trở | Chưa thực hiện |
+| B06-T02 | Tìm chữ thường huế vẫn thấy Card Quần thể di tích Cố đô Huế. | Quan sát được hành vi mô tả, không có lỗi cản trở | Chưa thực hiện |
 | B06-T03 | Từ khóa không tồn tại hiển thị thông báo rỗng. | Quan sát được hành vi mô tả, không có lỗi cản trở | Chưa thực hiện |
 | B06-T04 | Xóa từ khóa hiển thị lại cả bốn Card. | Quan sát được hành vi mô tả, không có lỗi cản trở | Chưa thực hiện |
 

@@ -5,7 +5,7 @@
 3. Truy cập `http://localhost:8000/lessons/B09/`.
 4. Quan sát giao diện, đọc tên sản phẩm và mô tả mục tiêu.
 5. Thực hiện các tình huống sau:
-   1. Tìm Figma hiển thị đúng bài Figma.
+   1. Tìm Hội An hiển thị đúng bài Hội An.
    2. Nhập khôngtontai hiển thị 0 kết quả.
    3. Nháp được lưu và khôi phục sau tải lại trang.
    4. Có issue log ít nhất một tình huống trước/sau sửa.

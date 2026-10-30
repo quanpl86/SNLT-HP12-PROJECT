@@ -5,9 +5,9 @@
 3. Truy cập `http://localhost:8000/lessons/B07/`.
 4. Quan sát giao diện, đọc tên sản phẩm và mô tả mục tiêu.
 5. Thực hiện các tình huống sau:
-   1. Chọn Thiết kế: chỉ bài Figma hiển thị.
-   2. Chọn Lập trình: hai bài liên quan lập trình hiển thị.
-   3. Tìm Figma trong danh mục Lập trình: thông báo không có kết quả.
+   1. Chọn Di sản: hiển thị hai bài Hội An và Cố đô Huế.
+   2. Chọn Thiên nhiên: chỉ bài Vịnh Hạ Long – Cát Bà hiển thị.
+   3. Tìm Hội An trong danh mục Văn hóa: thông báo không có kết quả.
    4. Chọn Tất cả và xóa từ khóa: hiện đủ bốn bài.
 6. Nếu chức năng lỗi, mở DevTools Console; kiểm tra đường dẫn, selector và các giá trị dữ liệu.
 7. Ghi lại ít nhất một thử nghiệm/thay đổi trong mã hoặc quy trình triển khai có bằng chứng.

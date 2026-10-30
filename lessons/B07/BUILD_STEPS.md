@@ -15,7 +15,7 @@ Chạy sản phẩm B06 và dự đoán kết quả khi có thêm bộ lọc dan
 **Kiểm chứng:** Dự đoán trước khi chạy, thực hiện một thay đổi nhỏ, quan sát và ghi lý do đúng/sai.
 
 ### Bước 3
-Tạo phần tử select gồm Tất cả, Thiết kế, Lập trình, Dự án.
+Tạo phần tử select gồm Tất cả, Di sản, Thiên nhiên, Văn hóa.
 
 **Kiểm chứng:** Dự đoán trước khi chạy, thực hiện một thay đổi nhỏ, quan sát và ghi lý do đúng/sai.
 
@@ -54,7 +54,7 @@ Ghi cách xử lý thông báo không có kết quả.
 - Chỉ đánh dấu hoàn thành khi có kết quả thực tế và giải thích được hành vi.
 - Không tính riêng Quiz vào thời gian trên lớp.
 
-**Mở rộng không bắt buộc:** Thêm Card mới thuộc danh mục Dự án và kiểm thử lại.
+**Mở rộng không bắt buộc:** Thêm Card mới về múa rối nước thuộc danh mục Văn hóa và kiểm thử lại.
 
 ## Phân bổ thời gian đề xuất
 - Engage: 8 phút

@@ -10,7 +10,7 @@ Quan sát bốn Card HTML có sẵn; không yêu cầu tạo Card động.
 **Tự kiểm tra:** Ghi lại em dự đoán điều gì, thấy gì sau khi chạy và có lỗi nào cần sửa.
 
 ### Bước 2
-Dự đoán các kết quả khi tìm Figma, JS, không có và chuỗi trống.
+Dự đoán kết quả khi tìm Hội An, Huế, không có từ khóa và chuỗi trống.
 
 **Tự kiểm tra:** Ghi lại em dự đoán điều gì, thấy gì sau khi chạy và có lỗi nào cần sửa.
 
