@@ -1,5 +1,8 @@
 # HP12 – B05: Quản lý lưu trữ Local
 
+> **Curriculum Master HP12 v3.0:** **LO04** · **K07, K08** · Hình thành kiến thức. Xem [LO Master](../../curriculum/03_LO_MASTER.md), [Knowledge Master](../../curriculum/04_KNOWLEDGE_MASTER.md), [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md) và [Product Master](../../curriculum/06_LESSON_PRODUCT_MASTER.md). Tên và mục tiêu bài học thuộc hệ thống mã **LO01–LO10, K01–K15**; ví dụ sản phẩm sử dụng Blog **Sắc Việt**.
+
+
 **Bối cảnh “Sắc Việt”:** Viết, lưu và khôi phục bản nháp giới thiệu một địa danh hoặc nét văn hóa Việt Nam.
 
 **Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.

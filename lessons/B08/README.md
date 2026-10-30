@@ -1,5 +1,8 @@
 # HP12 – B08: Quản lý dự án với GitHub
 
+> **Curriculum Master HP12 v3.0:** **LO07** · **K13** · Hình thành kiến thức. Xem [LO Master](../../curriculum/03_LO_MASTER.md), [Knowledge Master](../../curriculum/04_KNOWLEDGE_MASTER.md), [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md) và [Product Master](../../curriculum/06_LESSON_PRODUCT_MASTER.md). Tên và mục tiêu bài học thuộc hệ thống mã **LO01–LO10, K01–K15**; ví dụ sản phẩm sử dụng Blog **Sắc Việt**.
+
+
 **Bối cảnh “Sắc Việt”:** Chuẩn bị repository mã nguồn giới thiệu văn hóa và địa danh Việt Nam; kiểm tra hình ảnh minh họa và nguồn trích dẫn trước khi công khai.
 
 **Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.

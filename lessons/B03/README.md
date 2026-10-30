@@ -1,5 +1,8 @@
 # HP12 – B03: Xử lý sự kiện
 
+> **Curriculum Master HP12 v3.0:** **LO03** · **K05, K06** · Chuyển giao / tích hợp. Xem [LO Master](../../curriculum/03_LO_MASTER.md), [Knowledge Master](../../curriculum/04_KNOWLEDGE_MASTER.md), [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md) và [Product Master](../../curriculum/06_LESSON_PRODUCT_MASTER.md). Tên và mục tiêu bài học thuộc hệ thống mã **LO01–LO10, K01–K15**; ví dụ sản phẩm sử dụng Blog **Sắc Việt**.
+
+
 **Bối cảnh “Sắc Việt”:** Chức năng bật/ẩn gợi ý khám phá cảnh quan Vịnh Hạ Long – Cát Bà bằng sự kiện click.
 
 **Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.

@@ -1,5 +1,8 @@
 # HP12 – B07: Lọc bài viết theo danh mục
 
+> **Curriculum Master HP12 v3.0:** **LO06** · **K12** · Vận dụng tích hợp. Xem [LO Master](../../curriculum/03_LO_MASTER.md), [Knowledge Master](../../curriculum/04_KNOWLEDGE_MASTER.md), [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md) và [Product Master](../../curriculum/06_LESSON_PRODUCT_MASTER.md). Tên và mục tiêu bài học thuộc hệ thống mã **LO01–LO10, K01–K15**; ví dụ sản phẩm sử dụng Blog **Sắc Việt**.
+
+
 **Bối cảnh “Sắc Việt”:** Phân loại Hội An và Huế thuộc Di sản, Hạ Long – Cát Bà thuộc Thiên nhiên, múa rối nước thuộc Văn hóa.
 
 **Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
