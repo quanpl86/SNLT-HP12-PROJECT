@@ -1,5 +1,15 @@
 # Kiến thức áp dụng — B09
 
+## Mã kiến thức chính thức — Curriculum Master v3.0
+**Mục tiêu liên quan:** Ôn LO04–LO07.
+
+| K-ID | Phân loại | Nội dung |
+|---|---|---|
+| K07–K13 | REVIEW | Kiểm thử trước phát hành, không thêm K-ID mới |
+
+Tra cứu [Knowledge Master toàn khóa](../../curriculum/04_KNOWLEDGE_MASTER.md), [LO Master](../../curriculum/03_LO_MASTER.md) và [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md). **Các mã là mã R&D nội bộ HP12, không phải mã tiêu chuẩn quốc tế.**
+
+
 **Bối cảnh “Sắc Việt”:** Kiểm thử tìm Hội An/Huế, lưu nháp giới thiệu địa danh và các chức năng đã học.
 
 **Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
@@ -34,4 +44,3 @@
 1. Điều gì xảy ra nếu bỏ dòng xử lý chính ở src/app.js?
 2. Nội dung của bài này tái sử dụng kiến thức nào từ HP09, HP10 hoặc HP11?
 3. Em có thể chứng minh thành công của sản phẩm bằng tình huống kiểm thử nào?
-
