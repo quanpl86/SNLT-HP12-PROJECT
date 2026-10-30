@@ -8,9 +8,9 @@
 5. Không dùng `file://` để kiểm thử LocalStorage vì cách xử lý có thể khác nhau theo trình duyệt.
 
 ## Kịch bản tương tác
-- **Home:** nhập `JavaScript` vào ô tìm kiếm → còn bài tương ứng; xóa từ khóa → danh sách phục hồi; chọn `Thiết kế` → chỉ còn bài danh mục này; nhập `khôngtồntại` → thông báo rỗng.
-- **Bài viết:** nhấn Đọc bài → xem tiêu đề và nội dung phù hợp; sửa query ID thành ID không có trong tập dữ liệu → hiện thông báo không tìm thấy.
-- **Editor:** nhập tiêu đề/nội dung → quan sát Preview; nhấn Lưu → tải lại trang → nhấn Khôi phục → nhận dữ liệu cũ; nhấn Xóa nháp → dữ liệu bị xóa.
+- **Home:** nhập `Hội An` vào ô tìm kiếm → còn bài Hội An; xóa từ khóa → đủ 6 bài; chọn `Di sản` → có Hội An, Huế; chọn `Thiên nhiên` → có Hạ Long–Cát Bà, Tràng An; nhập `khôngtồntại` → thông báo rỗng.
+- **Bài viết:** nhấn Đọc bài → xem đúng địa danh, minh họa và nội dung; ở các bài có nguồn UNESCO, thử mở liên kết nguồn; sửa query ID thành ID không có trong tập dữ liệu → thông báo không tìm thấy.
+- **Editor:** thử viết “Em muốn giới thiệu Hội An” → quan sát Preview; nhấn Lưu → tải lại trang → Khôi phục → dữ liệu cũ xuất hiện; nhấn Xóa nháp → dữ liệu bị xóa.
 - **Dashboard:** danh sách cùng dữ liệu mẫu với Home; nhấn Xem bài.
 - **About:** đối chiếu chuỗi HP09→HP12.
 

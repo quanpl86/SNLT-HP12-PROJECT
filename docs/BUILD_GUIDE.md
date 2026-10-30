@@ -1,4 +1,4 @@
-# Hướng dẫn xây dựng sản phẩm cuối học phần
+# Hướng dẫn xây dựng sản phẩm cuối HP12 — Sắc Việt
 
 ## Chuẩn bị
 1. Kế thừa thiết kế Figma và website HTML/CSS từ HP09–HP10. Nếu không có dự án cũ, sử dụng bộ HTML/CSS mẫu trong repository.
@@ -20,10 +20,10 @@
 5. Kiểm tra chưa có dữ liệu, dữ liệu bị xóa và hạn chế truy cập bộ nhớ; thông báo rõ cho người dùng.
 
 ## Chặng 3 — B06–B07: Tìm kiếm và lọc
-1. Dùng dữ liệu bài viết mẫu `scripts/posts.js` hoặc những Card tĩnh do giáo viên cung cấp.
+1. Dùng 6 bài viết mẫu về Việt Nam trong `scripts/posts.js` hoặc những Card tĩnh về địa danh do giáo viên cung cấp.
 2. Nhận từ khóa khi người dùng nhập; đổi thành chữ thường; so sánh với tiêu đề.
 3. Chỉ hiển thị bài phù hợp; thông báo số kết quả hoặc không có kết quả.
-4. Thêm lựa chọn danh mục, kết hợp điều kiện tìm theo tiêu đề + danh mục.
+4. Thêm lựa chọn **Di sản / Thiên nhiên / Văn hóa**; kết hợp điều kiện tìm theo tiêu đề + danh mục.
 5. Kiểm tra từ khóa rỗng, chữ hoa/thường, danh mục không có bài, các tổ hợp điều kiện.
 
 ## Chặng 4 — B08–B09: Quản lý nguồn và kiểm thử
@@ -38,3 +38,6 @@
 
 **Đánh giá:** mỗi lần bổ sung chức năng phải có dự đoán → chạy thử → giải thích → sửa lỗi → kiểm thử lại. Không đánh giá bằng số dòng mã.
 
+
+## Biên tập nội dung văn hóa
+Đối chiếu mô tả di sản với các nguồn trong `CULTURE_SOURCES.md`. Dùng ảnh tự tạo hoặc ảnh có quyền sử dụng rõ ràng; ghi nguồn khi giới thiệu thông tin được tra cứu. Không yêu cầu học sinh nhập địa chỉ cá nhân hoặc hình ảnh riêng tư.

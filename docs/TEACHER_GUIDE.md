@@ -1,4 +1,7 @@
-# Hướng dẫn giáo viên triển khai dự án học phần HP12
+# Hướng dẫn giáo viên triển khai dự án HP12 — Sắc Việt
+
+## Chủ đề xuyên suốt
+Website giới thiệu **văn hóa và địa danh Việt Nam**; trang chính có 6 bài viết mẫu thuộc ba chủ đề Di sản, Thiên nhiên và Văn hóa. Từ B01 đến B12, học sinh dùng các ví dụ về Huế, Hội An, Tràng An, Hạ Long – Cát Bà, múa rối nước và áo dài để học JavaScript trong bối cảnh có ý nghĩa.
 
 ## Cấu trúc học phần
 12 bài × 110 phút. Quiz thực hiện ở nhà. Học sinh 13–15 tuổi, đã hoàn thành HP09 (Figma), HP10 (HTML/CSS) và HP11 (JavaScript nhập môn theo LMS cũ).
@@ -31,3 +34,6 @@
 ## Đánh giá
 Xem `ASSESSMENT_RUBRIC.md` và `TEST_CASES.md`. Đánh giá cả chức năng, giải thích lựa chọn, kiểm thử, quá trình sửa lỗi và an toàn dữ liệu.
 
+
+## Chất lượng nội dung văn hóa
+Hướng dẫn học sinh mô tả tôn trọng và chính xác, đối chiếu với nguồn đáng tin cậy, không sao chép ảnh hoặc bài viết trái phép. Phân biệt di sản UNESCO với những nét văn hóa nói chung. Xem `CULTURE_SOURCES.md`.

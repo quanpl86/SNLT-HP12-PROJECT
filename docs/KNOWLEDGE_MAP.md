@@ -7,8 +7,8 @@
 | B03 | addEventListener/click | HP11 Event Handling | Nút phản hồi đúng |
 | B04 | Sửa lỗi DOM/Event | HP10/HP11 debugging | Nhật ký sửa lỗi |
 | B05 | input.value, localStorage set/get | HP11 biến/sự kiện | Bản nháp khôi phục |
-| B06 | Input Event, tìm theo tiêu đề | HP11 điều kiện/vòng lặp | Search |
-| B07 | Kết hợp tìm kiếm + lọc danh mục | HP11 if/loop, B06 | Filter |
+| B06 | Input Event, tìm tiêu đề địa danh | HP11 điều kiện/vòng lặp | Tìm Hội An/Huế |
+| B07 | Tìm kiếm + lọc Di sản/Thiên nhiên/Văn hóa | HP11 if/loop, B06 | Bộ lọc chủ đề Việt Nam |
 | B08 | Repository và commit | HP10 mã nguồn, HP11 dự án | Repo có commit |
 | B09 | Kiểm thử chức năng | HP09 luồng người dùng, HP10 QA | Test log |
 | B10 | GitHub Pages và kiểm thử URL | B08/B09 | URL phát hành lần đầu |

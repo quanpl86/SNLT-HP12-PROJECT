@@ -1,4 +1,4 @@
-# HP12 — Personal Interactive Web Blog
+# SẮC VIỆT — Blog văn hóa và địa danh Việt Nam | HP12
 
 **Học phần 12 · 12 bài × 110 phút · Quiz tại nhà.** Sản phẩm cuối của hành trình HP09 (Figma) → HP10 (HTML/CSS) → HP11 (JavaScript nhập môn) → HP12 (tích hợp, lưu nháp, tìm kiếm, lọc, kiểm thử và phát hành).
 
@@ -9,11 +9,12 @@
 - Thực hành: [12 dự án bài học](lessons/README.md). Mỗi thư mục có HTML/CSS/JS, SVG, giới thiệu, kiến thức, hướng dẫn xây dựng, hướng dẫn chạy và kiểm thử.
 
 ## Các chức năng của website cuối khóa
-- Trang chủ hiển thị các Blog Card từ dữ liệu giả lập; tìm kiếm theo tiêu đề, lọc danh mục và thông báo không có kết quả.
-- Trang bài viết hiển thị nội dung theo liên kết ID (**mã hỗ trợ tích hợp do giáo viên cung cấp**, không phải LO bắt buộc của HP12).
+- Trang chủ hiển thị **6 bài viết mẫu** về Hội An, Huế, Hạ Long–Cát Bà, Tràng An, múa rối nước và áo dài. Tìm kiếm theo tiêu đề, lọc **Di sản / Thiên nhiên / Văn hóa** và thông báo không có kết quả.
+- Trang bài viết hiển thị nội dung theo ID, kèm nguồn tham khảo UNESCO ở các bài viết di sản (**mã hỗ trợ tích hợp do giáo viên cung cấp**, không phải LO bắt buộc của HP12).
 - Trình soạn thảo xem trước, lưu/khôi phục/xóa bản nháp bằng `localStorage` trên cùng trình duyệt.
 - Dashboard sử dụng lại danh sách bài viết mẫu (không có máy chủ, đăng nhập, CRUD công khai).
-- Responsive cơ bản; ảnh SVG tự tạo, không tải từ nguồn bên ngoài.
+- Responsive cơ bản; minh họa đặc trưng địa danh/trang phục Việt Nam bằng **SVG tự tạo**, không tải ảnh bên ngoài.
+- Tất cả ví dụ B01–B12 sử dụng bối cảnh khám phá văn hóa và địa danh Việt Nam; kiến thức lập trình và LOs vẫn theo khung LMS HP12.
 
 ## Hướng dẫn tài liệu
 - [Tổng quan sản phẩm](docs/PROJECT_OVERVIEW.md)
@@ -26,3 +27,6 @@
 
 > **Lưu ý:** GitHub Pages chỉ xuất bản file tĩnh. `localStorage` của người học KHÔNG đồng bộ bản nháp với khách truy cập khác. Nội dung mẫu không có thông tin cá nhân. **Chưa tự động bật GitHub Pages**; thực hiện theo hướng dẫn B10.
 
+
+## Nguồn nội dung về di sản
+Tham khảo [bảng nguồn và nguyên tắc biên tập](docs/CULTURE_SOURCES.md). Nội dung mẫu phục vụ bài học, không phải tài liệu du lịch chính thức.
