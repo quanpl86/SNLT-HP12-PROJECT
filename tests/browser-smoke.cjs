@@ -32,8 +32,14 @@ async function run() {
   assert.equal(await page.locator(".post-card").count(), 6, "Home has 6 blog cards");
   const heroOk = await page.locator(".hero-photo-frame img").evaluate(img => img.complete && img.naturalWidth > 0 && img.getAttribute("src").includes("viet-nam-hero-gpt.webp"));
   assert.equal(heroOk,true,"Hero GPT Image loads");
-  const imageCount=await page.locator(".post-card img").evaluateAll(imgs=>imgs.filter(img=>img.complete && img.naturalWidth>0 && img.src.includes("/assets/photos/")).length);
-  assert.equal(imageCount,6,"All six GPT Image article pictures load");
+  const imagePaths=await page.locator(".post-card img").evaluateAll(imgs=>imgs.map(img=>img.getAttribute("src")));
+  assert.equal(imagePaths.length,6,"All six GPT Image article pictures are referenced");
+  for (const imagePath of imagePaths) {
+    assert.ok(imagePath.startsWith("assets/photos/"),imagePath);
+    const response=await page.request.get(origin+"/"+imagePath);
+    assert.ok(response.ok(),"Missing image: "+imagePath);
+    assert.match(response.headers()["content-type"]||"",/image\/webp/,"Wrong image type: "+imagePath);
+  }
   await page.screenshot({path:path.join(artifacts,"desktop-home.png"),fullPage:true});
 
   await page.locator("#search").fill("HOI AN");
