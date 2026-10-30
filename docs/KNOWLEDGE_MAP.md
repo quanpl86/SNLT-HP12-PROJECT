@@ -17,3 +17,6 @@
 
 **Nguyên tắc:** B04, B09, B11 và B12 không giảng thêm công nghệ cốt lõi. B10 chỉ bổ sung GitHub Pages. Kiểm thử phát hành là thực hành tích hợp, không phải chủ đề cú pháp mới.
 
+
+## Nguồn chuẩn để quản trị học phần
+Bảng trên giúp giáo viên đọc nhanh theo bài. Bảng có mã và phân loại chính thức **K01–K15** được lưu tại [Curriculum Knowledge Master](../curriculum/04_KNOWLEDGE_MASTER.md), liên kết LO tại [LO Master](../curriculum/03_LO_MASTER.md), và nhiệm vụ bài tại [Scope & Sequence](../curriculum/05_SCOPE_AND_SEQUENCE.md). Khi khác nhau, ưu tiên bản Curriculum Master đã chốt và ghi rõ thay đổi R&D.

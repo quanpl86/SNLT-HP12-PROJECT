@@ -12,6 +12,8 @@
 7. [Ma trận truy vết LO–K-ID–Bài–Sản phẩm](07_TRACEABILITY_MATRIX.md)
 8. [Kế thừa HP09–HP11 và tiêu chuẩn đánh giá](08_HP09_HP12_ALIGNMENT.md)
 9. [Quản trị nguồn và thẩm định](09_SOURCE_AND_QA.md)
+10. [Acceptance Master — 26 ca nghiệm thu](10_ACCEPTANCE_MASTER.md)
+11. [Dữ liệu CSV: ULO, LO, K-ID, Scope & Sequence](data/README.md)
 
 **Vị trí mã nguồn:** [website hoàn chỉnh](../README.md) và [12 bài học](../lessons/README.md).
 

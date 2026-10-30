@@ -31,3 +31,8 @@
 - Các ví dụ Hội An/Huế, nhóm Di sản/Thiên nhiên/Văn hóa là cách chuyển bối cảnh theo yêu cầu sau bản v3.0; không thay mã LO/K.
 - Các ca kiểm thử mã nguồn tự động chỉ xác nhận tính hợp lệ tĩnh, không tự chứng minh thời lượng sư phạm 110 phút hoặc website đã chạy trên Pages.
 - Nếu bản ghi nội dung thay đổi sau này, cập nhật đồng bộ LO Master, K Master, Scope & Sequence, traceability và README bài học; tránh lệch mã.
+
+## Dữ liệu và nghiệm thu được lưu trên repository
+- [4 bảng CSV](data/README.md) gồm 4 ULO, 10 LO, 15 K-ID, 12 bài học. Đây là bản dữ liệu sử dụng được để kiểm tra và nhập liệu, không thay XLSX nguyên bản.
+- [Acceptance Master](10_ACCEPTANCE_MASTER.md) giữ **26 ca AT01–AT26**. Tiêu đề sheet workbook ghi “25 CA” nhưng thật sự có AT26; không được tự xóa AT26.
+- Workbook nguồn vẫn ở tệp đã tạo trong phiên làm việc của người dùng; **chưa đẩy tệp nhị phân XLSX lên GitHub**. Bản trên GitHub là nội dung quản lý ở Markdown và CSV.
