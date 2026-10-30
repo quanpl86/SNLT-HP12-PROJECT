@@ -12,6 +12,7 @@ Website gốc đã được hoàn thiện với **5 trang đồng bộ giao di�
 
 - [Cấu trúc mã nguồn và quyết định UI](docs/UI_IMPLEMENTATION.md)
 - [20 trường hợp kiểm thử sản phẩm hoàn chỉnh](docs/FINAL_PROJECT_QA.md)
+- [Biên bản nghiệm thu Chromium và minh chứng Desktop/Mobile](docs/QA_REPORT_2026-10-30.md)
 - [Bộ kiểm thử Node.js](tests/search.test.cjs) (chạy `node --test tests/*.test.cjs`)
 - [Hướng dẫn phát hành GitHub Pages](docs/RELEASE_GUIDE.md)
 
