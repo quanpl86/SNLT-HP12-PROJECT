@@ -1,5 +1,9 @@
 # HP12 – B01: Ứng dụng JavaScript trên website
 
+**Bối cảnh “Sắc Việt”:** Lời chào trên trang chủ giới thiệu vẻ đẹp Việt Nam; học sinh thay đổi thông điệp chào khách khám phá.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Tên sản phẩm:** Home JS Connected.
 
 ## Bối cảnh và giá trị

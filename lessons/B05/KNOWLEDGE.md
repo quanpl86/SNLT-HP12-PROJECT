@@ -1,5 +1,9 @@
 # Kiến thức áp dụng – B05
 
+**Bối cảnh “Sắc Việt”:** Viết, lưu và khôi phục bản nháp giới thiệu một địa danh hoặc nét văn hóa Việt Nam.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Mục tiêu:** Lưu và khôi phục một bản nháp văn bản bằng localStorage trên cùng trình duyệt.
 
 **Kiến thức kế thừa:** HP11: biến và click Event; HP12 B03: addEventListener.

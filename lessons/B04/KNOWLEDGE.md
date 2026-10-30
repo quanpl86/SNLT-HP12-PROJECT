@@ -1,5 +1,9 @@
 # Kiến thức áp dụng – B04
 
+**Bối cảnh “Sắc Việt”:** Gỡ lỗi tương tác để hiển thị thông điệp giới thiệu Phố cổ Hội An.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Mục tiêu:** Kiểm thử và sửa lỗi DOM/Event trong sản phẩm mẫu; vận dụng để làm mới một phần của trang.
 
 **Kiến thức kế thừa:** HP12 B01–B03; HP10 Debug/QA; HP11 Javascript syntax review.

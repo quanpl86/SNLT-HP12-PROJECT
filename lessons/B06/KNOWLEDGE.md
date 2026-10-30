@@ -1,5 +1,9 @@
 # Kiến thức áp dụng – B06
 
+**Bối cảnh “Sắc Việt”:** Tìm kiếm trong bốn Card mẫu: Hội An, Huế, Hạ Long – Cát Bà và nghệ thuật múa rối nước.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Mục tiêu:** Xây dựng tìm kiếm theo tiêu đề cho một danh sách Blog Card đã có và xử lý trường hợp không có kết quả.
 
 **Kiến thức kế thừa:** HP11: vòng lặp và if; HP12 B02: DOM; B03: sự kiện.

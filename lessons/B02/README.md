@@ -1,5 +1,9 @@
 # HP12 – B02: Tương tác với DOM
 
+**Bối cảnh “Sắc Việt”:** Bài mẫu Phố cổ Hội An; học sinh dùng DOM thay đổi tiêu đề, mô tả và nhãn Di sản.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Tên sản phẩm:** Blog Content Highlight.
 
 ## Bối cảnh và giá trị

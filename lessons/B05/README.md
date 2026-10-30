@@ -1,5 +1,9 @@
 # HP12 – B05: Quản lý lưu trữ Local
 
+**Bối cảnh “Sắc Việt”:** Viết, lưu và khôi phục bản nháp giới thiệu một địa danh hoặc nét văn hóa Việt Nam.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Tên sản phẩm:** Local Draft Saver.
 
 ## Bối cảnh và giá trị

@@ -1,5 +1,9 @@
 # Kiến thức áp dụng – B01
 
+**Bối cảnh “Sắc Việt”:** Lời chào trên trang chủ giới thiệu vẻ đẹp Việt Nam; học sinh thay đổi thông điệp chào khách khám phá.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Mục tiêu:** Vận dụng JavaScript và HTML/CSS đã học để thay đổi nội dung một khu vực Home khi trang tải.
 
 **Kiến thức kế thừa:** HP09: bố cục Figma; HP10: cấu trúc HTML/CSS; HP11: cú pháp JavaScript và console.log.

@@ -1,5 +1,9 @@
 # Kiến thức áp dụng – B03
 
+**Bối cảnh “Sắc Việt”:** Chức năng bật/ẩn gợi ý khám phá cảnh quan Vịnh Hạ Long – Cát Bà bằng sự kiện click.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Mục tiêu:** Đăng ký một sự kiện click để bật/tắt phần nội dung trên website và giải thích handler.
 
 **Kiến thức kế thừa:** HP11: Event Handling từ sản phẩm Màu nền yêu thích; HP12 B02: DOM.

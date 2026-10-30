@@ -1,5 +1,9 @@
 # HP12 – B03: Xử lý sự kiện
 
+**Bối cảnh “Sắc Việt”:** Chức năng bật/ẩn gợi ý khám phá cảnh quan Vịnh Hạ Long – Cát Bà bằng sự kiện click.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Tên sản phẩm:** Quick Blog Interaction.
 
 ## Bối cảnh và giá trị

@@ -1,5 +1,9 @@
 # HP12 – B04: Ôn tập 1 — DOM và Events
 
+**Bối cảnh “Sắc Việt”:** Gỡ lỗi tương tác để hiển thị thông điệp giới thiệu Phố cổ Hội An.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Tên sản phẩm:** DOM & Event Repair Pack.
 
 ## Bối cảnh và giá trị

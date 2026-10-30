@@ -1,5 +1,9 @@
 # HP12 – B06: Tìm kiếm bài viết
 
+**Bối cảnh “Sắc Việt”:** Tìm kiếm trong bốn Card mẫu: Hội An, Huế, Hạ Long – Cát Bà và nghệ thuật múa rối nước.
+
+**Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
+
 **Tên sản phẩm:** Blog Keyword Search.
 
 ## Bối cảnh và giá trị
