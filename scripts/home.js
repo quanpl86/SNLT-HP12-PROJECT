@@ -22,10 +22,10 @@
     media.setAttribute("aria-label", "Đọc bài: " + post.title);
     const image = document.createElement("img");
     image.src = post.image;
-    image.alt = "Minh họa: " + post.title;
+    image.alt = post.imageAlt || ("Tranh minh họa: " + post.title);
     image.loading = "lazy";
-    image.width = 720;
-    image.height = 405;
+    image.width = 1440;
+    image.height = 810;
     const tag = document.createElement("span");
     tag.className = "post-card-category";
     tag.textContent = post.category;

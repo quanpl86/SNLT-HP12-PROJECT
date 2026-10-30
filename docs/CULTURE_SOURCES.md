@@ -1,6 +1,6 @@
 # Nguồn tham khảo nội dung văn hóa và địa danh Việt Nam
 
-Website **Sắc Việt** là bài thực hành dành cho học sinh 13–15 tuổi. Nội dung các bài được biên soạn ngắn bằng ngôn ngữ mới, hình ảnh là SVG tự tạo. Không sao chép nguyên văn bài của bên thứ ba.
+Website **Sắc Việt** là bài thực hành dành cho học sinh 13–15 tuổi. Nội dung các bài được biên soạn ngắn bằng ngôn ngữ mới, hình ảnh chính là tranh minh họa GPT Image (WebP) và các SVG tự tạo. Không sao chép nguyên văn bài của bên thứ ba.
 
 ## Địa danh/di sản có nguồn đối chiếu
 | Bài viết | Nguồn chính | Ý được kiểm tra |
@@ -21,3 +21,8 @@ Website **Sắc Việt** là bài thực hành dành cho học sinh 13–15 tu�
 4. Tránh tuyên bố chưa kiểm chứng hoặc đồng nhất các nét văn hóa đa dạng thành một khuôn mẫu.
 5. Không đăng ảnh riêng tư, địa chỉ cá nhân hay thông tin nhạy cảm lên GitHub.
 6. Phân biệt bài mẫu phục vụ học lập trình với nội dung giới thiệu văn hóa đã được thẩm định chuyên môn.
+
+## Lưu ý về tranh GPT Image
+- Bảy tranh trong [thư mục ảnh](../assets/photos/) được tạo để minh họa cho nội dung giáo dục. Tranh mang tính sáng tạo, **không phải ảnh chụp thực tế** hoặc tài liệu xác nhận chi tiết công trình, trang phục, nghi lễ.
+- Chú thích nằm ngay dưới ảnh trong trang đọc bài, mô tả ngắn nguồn tạo và giới hạn tính chính xác.
+- Nguồn UNESCO là nguồn **thông tin về di sản**, không phải nguồn tác giả của tranh GPT Image. Không ghi UNESCO như tác giả ảnh.

@@ -30,6 +30,10 @@ async function run() {
   await page.goto(origin+"/index.html");
   await page.locator(".post-card").first().waitFor();
   assert.equal(await page.locator(".post-card").count(), 6, "Home has 6 blog cards");
+  const heroOk = await page.locator(".hero-photo-frame img").evaluate(img => img.complete && img.naturalWidth > 0 && img.getAttribute("src").includes("viet-nam-hero-gpt.webp"));
+  assert.equal(heroOk,true,"Hero GPT Image loads");
+  const imageCount=await page.locator(".post-card img").evaluateAll(imgs=>imgs.filter(img=>img.complete && img.naturalWidth>0 && img.src.includes("/assets/photos/")).length);
+  assert.equal(imageCount,6,"All six GPT Image article pictures load");
   await page.screenshot({path:path.join(artifacts,"desktop-home.png"),fullPage:true});
 
   await page.locator("#search").fill("HOI AN");
@@ -55,6 +59,7 @@ async function run() {
   assert.match(await page.locator("#article-title").innerText(),/Hội An/);
   assert.equal(await page.locator("#article-warning").isVisible(),false);
   assert.equal(await page.locator("#source-container").isVisible(),true);
+  assert.equal(await page.locator("#article-image-caption").isVisible(),true);
   await page.goto(origin+"/post.html?id=unknown");
   assert.equal(await page.locator("#article-warning").isVisible(),true);
 

@@ -20,7 +20,7 @@
     row.className = "library-row";
     const image = document.createElement("img");
     image.src = post.image;
-    image.alt = "Minh họa: " + post.title;
+    image.alt = post.imageAlt || ("Tranh minh họa: " + post.title);
     image.loading = "lazy";
     image.width = 170;
     image.height = 110;

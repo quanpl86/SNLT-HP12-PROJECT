@@ -16,7 +16,7 @@ Website gốc đã được hoàn thiện với **5 trang đồng bộ giao di�
 - [Bộ kiểm thử Node.js](tests/search.test.cjs) (chạy `node --test tests/*.test.cjs`)
 - [Hướng dẫn phát hành GitHub Pages](docs/RELEASE_GUIDE.md)
 
-**Lưu ý:** Hình mockup dùng để truyền đạt hướng thiết kế; giao diện website chạy thật dùng SVG có sẵn trong repository và **không** có chức năng đăng bài công khai.
+**Lưu ý:** Hình mockup dùng để truyền đạt hướng thiết kế; giao diện website chạy thật sử dụng 7 tranh GPT Image tối ưu WebP và SVG bổ trợ và **không** có chức năng đăng bài công khai.
 
 ## Chạy ngay
 - Mở `index.html` với VS Code Live Server hoặc chạy `python -m http.server 8000` ở thư mục gốc rồi truy cập `http://localhost:8000/`.
@@ -29,7 +29,7 @@ Website gốc đã được hoàn thiện với **5 trang đồng bộ giao di�
 - Trang bài viết hiển thị nội dung theo ID, kèm nguồn tham khảo UNESCO ở các bài viết di sản (**mã hỗ trợ tích hợp do giáo viên cung cấp**, không phải LO bắt buộc của HP12).
 - Trình soạn thảo xem trước, lưu/khôi phục/xóa bản nháp bằng `localStorage` trên cùng trình duyệt.
 - Dashboard sử dụng lại danh sách bài viết mẫu (không có máy chủ, đăng nhập, CRUD công khai).
-- Responsive cơ bản; minh họa đặc trưng địa danh/trang phục Việt Nam bằng **SVG tự tạo**, không tải ảnh bên ngoài.
+- Responsive cơ bản; 6 tranh GPT Image cho các bài viết và 1 tranh Hero (WebP), kèm SVG bổ trợ; ảnh được lưu cục bộ, không tải từ dịch vụ bên ngoài khi xem website.
 - Tất cả ví dụ B01–B12 sử dụng bối cảnh khám phá văn hóa và địa danh Việt Nam; kiến thức lập trình và LOs vẫn theo khung LMS HP12.
 
 ## Hướng dẫn tài liệu
@@ -46,3 +46,6 @@ Website gốc đã được hoàn thiện với **5 trang đồng bộ giao di�
 
 ## Nguồn nội dung về di sản
 Tham khảo [bảng nguồn và nguyên tắc biên tập](docs/CULTURE_SOURCES.md). Nội dung mẫu phục vụ bài học, không phải tài liệu du lịch chính thức.
+
+## Ảnh GPT Image cho Sắc Việt
+Trang chủ và 6 bài viết đã sử dụng ảnh WebP ở [assets/photos/](assets/photos/); xem [danh mục ảnh, mô tả và nguyên tắc sử dụng](docs/GPT_IMAGE_GALLERY.md). Đây là tranh minh họa tạo bằng AI, **không phải ảnh chụp tư liệu hay hình mô phỏng chính xác kiến trúc**.

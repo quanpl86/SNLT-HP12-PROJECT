@@ -2,7 +2,7 @@
 # Hướng dẫn dự án hoàn chỉnh — SẮC VIỆT (HP12)
 
 ## Định hướng thiết kế
-Website áp dụng concept visual đã chốt: màu đỏ son, xanh ngọc, vàng ấm; nét văn hóa Việt Nam, giao diện card hiện đại và thiết bị di động. **Đây là mã website chạy được**, không phải ảnh mô phỏng. Hình minh họa là bộ SVG tự tạo và **không** tái tạo nguyên vẹn các ảnh thật trong visual quảng bá.
+Website áp dụng concept visual đã chốt: màu đỏ son, xanh ngọc, vàng ấm; nét văn hóa Việt Nam, giao diện card hiện đại và thiết bị di động. **Đây là mã website chạy được**, không phải ảnh mô phỏng. Hình minh họa bao gồm **7 tranh GPT Image đã tối ưu WebP** (Hero và 6 bài viết) cùng SVG bổ trợ; không trình bày tranh AI như ảnh tư liệu.
 
 ## Bản đồ thư mục
 | Tệp / thư mục | Vai trò | Kiến thức liên quan |
@@ -15,7 +15,8 @@ Website áp dụng concept visual đã chốt: màu đỏ son, xanh ngọc, vàn
 | \`editor.html\`, \`scripts/editor.js\` | Live preview, lưu/khôi phục/xóa một nháp | K07/K08; phần preview hỗ trợ |
 | \`dashboard.html\`, \`scripts/dashboard.js\` | Thư viện và số liệu từ 6 bài mẫu | Phần hiển thị hỗ trợ |
 | \`about.html\` | Giới thiệu bốn học phần và tinh thần giữ gìn văn hóa | HP09–HP12 |
-| \`assets/*.svg\` | Biểu tượng, minh họa địa danh/trang phục do dự án tạo | HTML/CSS asset |
+| `assets/photos/*.webp` | 7 tranh GPT Image tối ưu: Hero và 6 chủ đề văn hóa, địa danh | Nội dung số; truy xuất asset |
+| `assets/*.svg` | Biểu tượng và hình phụ trợ do dự án tạo | HTML/CSS asset |
 | \`tests/*.test.cjs\` | Kiểm tra dữ liệu, chức năng lọc/tìm và cấu trúc | QA dự án |
 | \`curriculum/\` | Master 4 ULO / 10 LO / 15 K-ID / 12 buổi | Quản lý R&D |
 | \`lessons/B01–B12/\` | 12 mini project hoạt động riêng | Học liệu từng buổi |

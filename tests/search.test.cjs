@@ -23,6 +23,9 @@ test("mỗi bài có dữ liệu cần thiết và ảnh địa phương", () =>
     assert.ok(post.title && post.category && post.excerpt && post.content);
     assert.ok(post.image.startsWith("assets/"), post.title);
     assert.ok(fs.existsSync(path.join(root, post.image)), post.image);
+    assert.ok(post.image.startsWith("assets/photos/") && post.image.endsWith(".webp"), post.title);
+    assert.ok(post.imageAlt && post.imageCaption, post.title);
+    assert.ok(post.content.length >= 600, "Bài viết quá ngắn: " + post.title);
   }
 });
 

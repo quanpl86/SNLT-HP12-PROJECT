@@ -10,6 +10,7 @@
   const category = document.querySelector("#article-category");
   const date = document.querySelector("#article-date");
   const cover = document.querySelector("#article-image");
+  const caption = document.querySelector("#article-image-caption");
   const warning = document.querySelector("#article-warning");
   const crumb = document.querySelector("#crumb-title");
   const source = document.querySelector("#article-source");
@@ -25,6 +26,7 @@
     date.textContent = "";
     crumb.textContent = "Không tìm thấy";
     cover.hidden = true;
+    caption.hidden = true;
     warning.hidden = false;
     document.title = "Không tìm thấy bài viết | Sắc Việt";
     return;
@@ -36,7 +38,9 @@
   category.textContent = post.category.toUpperCase();
   date.textContent = post.date;
   cover.src = post.image;
-  cover.alt = "Minh họa: " + post.title;
+  cover.alt = post.imageAlt || ("Tranh minh họa: " + post.title);
+  caption.textContent = post.imageCaption || "Minh họa sáng tạo bằng GPT Image, không phải ảnh tư liệu.";
+  caption.hidden = false;
   content.textContent = post.content;
   if (post.sourceUrl) {
     source.href = post.sourceUrl;
@@ -57,9 +61,9 @@
     media.href = "post.html?id=" + encodeURIComponent(item.id);
     const img = document.createElement("img");
     img.src = item.image;
-    img.alt = "Minh họa: " + item.title;
+    img.alt = item.imageAlt || ("Tranh minh họa: " + item.title);
     img.loading = "lazy";
-    img.width = 720; img.height = 405;
+    img.width = 1440; img.height = 810;
     media.append(img);
     const body = document.createElement("div");
     body.className = "post-card-body";
