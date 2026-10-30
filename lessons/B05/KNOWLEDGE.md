@@ -1,5 +1,16 @@
 # Kiến thức áp dụng – B05
 
+## Mã kiến thức chính thức — Curriculum Master v3.0
+**Mục tiêu liên quan:** LO04. 
+
+| K-ID | Phân loại | Nội dung |
+|---|---|---|
+| K07 | NEW | Đọc và ghi .value trường nhập |
+| K08 | NEW | LocalStorage setItem/getItem |
+
+Đối chiếu [Knowledge Master toàn khóa](../../curriculum/04_KNOWLEDGE_MASTER.md), [LO Master](../../curriculum/03_LO_MASTER.md) và [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md). **Các mã này là mã R&D nội bộ HP12, không phải mã CSTA hay tiêu chuẩn quốc tế.**
+
+
 **Bối cảnh “Sắc Việt”:** Viết, lưu và khôi phục bản nháp giới thiệu một địa danh hoặc nét văn hóa Việt Nam.
 
 **Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.

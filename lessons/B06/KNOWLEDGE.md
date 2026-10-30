@@ -1,5 +1,17 @@
 # Kiến thức áp dụng – B06
 
+## Mã kiến thức chính thức — Curriculum Master v3.0
+**Mục tiêu liên quan:** LO05. 
+
+| K-ID | Phân loại | Nội dung |
+|---|---|---|
+| K09 | NEW | Sự kiện input cho tìm kiếm |
+| K10 | NEW | So khớp chuỗi tiêu đề |
+| K11 | TRANSFER | Vòng lặp trên Blog Card có sẵn |
+
+Đối chiếu [Knowledge Master toàn khóa](../../curriculum/04_KNOWLEDGE_MASTER.md), [LO Master](../../curriculum/03_LO_MASTER.md) và [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md). **Các mã này là mã R&D nội bộ HP12, không phải mã CSTA hay tiêu chuẩn quốc tế.**
+
+
 **Bối cảnh “Sắc Việt”:** Tìm kiếm trong bốn Card mẫu: Hội An, Huế, Hạ Long – Cát Bà và nghệ thuật múa rối nước.
 
 **Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.

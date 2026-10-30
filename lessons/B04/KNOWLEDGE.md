@@ -1,5 +1,15 @@
 # Kiến thức áp dụng – B04
 
+## Mã kiến thức chính thức — Curriculum Master v3.0
+**Mục tiêu liên quan:** Ôn LO01–LO03. Bài ôn tập, không cấp mới mã kiến thức.
+
+| K-ID | Phân loại | Nội dung |
+|---|---|---|
+| K01–K06 | REVIEW | Ôn tập và gỡ lỗi, không hình thành K-ID mới |
+
+Đối chiếu [Knowledge Master toàn khóa](../../curriculum/04_KNOWLEDGE_MASTER.md), [LO Master](../../curriculum/03_LO_MASTER.md) và [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md). **Các mã này là mã R&D nội bộ HP12, không phải mã CSTA hay tiêu chuẩn quốc tế.**
+
+
 **Bối cảnh “Sắc Việt”:** Gỡ lỗi tương tác để hiển thị thông điệp giới thiệu Phố cổ Hội An.
 
 **Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.

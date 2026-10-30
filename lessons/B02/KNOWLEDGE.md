@@ -1,5 +1,16 @@
 # Kiến thức áp dụng – B02
 
+## Mã kiến thức chính thức — Curriculum Master v3.0
+**Mục tiêu liên quan:** LO02. 
+
+| K-ID | Phân loại | Nội dung |
+|---|---|---|
+| K03 | NEW | Chọn phần tử bằng DOM Query |
+| K04 | INTEGRATE | Cập nhật văn bản/trạng thái UI |
+
+Đối chiếu [Knowledge Master toàn khóa](../../curriculum/04_KNOWLEDGE_MASTER.md), [LO Master](../../curriculum/03_LO_MASTER.md) và [Scope & Sequence](../../curriculum/05_SCOPE_AND_SEQUENCE.md). **Các mã này là mã R&D nội bộ HP12, không phải mã CSTA hay tiêu chuẩn quốc tế.**
+
+
 **Bối cảnh “Sắc Việt”:** Bài mẫu Phố cổ Hội An; học sinh dùng DOM thay đổi tiêu đề, mô tả và nhãn Di sản.
 
 **Nội dung học tập:** Các khái niệm JavaScript/DOM/Event và tiêu chí đánh giá vẫn theo khung HP12; dữ liệu ví dụ được chuyển sang văn hóa, địa danh Việt Nam.
