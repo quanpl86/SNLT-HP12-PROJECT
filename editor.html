@@ -1,10 +1,59 @@
 <!doctype html>
-<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Blog khám phá văn hóa và địa danh Việt Nam, sản phẩm cuối khóa Figma, HTML, CSS và JavaScript.">
-<title>Trình soạn thảo | Sắc Việt – HP12</title><link rel="icon" href="assets/brand.svg" type="image/svg+xml"><link rel="stylesheet" href="styles/main.css"></head>
-<body><a class="skip" href="#main">Bỏ qua điều hướng</a><header class="header"><div class="shell nav"><a class="brand" href="index.html"><img src="assets/brand.svg" alt="" width="34" height="34"><span>Sắc <b>Việt</b></span></a><nav aria-label="Điều hướng chính"><a  href="index.html">Trang chủ</a><a  href="about.html">Giới thiệu</a><a  href="post.html?id=post-01">Bài viết</a><a aria-current="page" href="editor.html">Trình soạn thảo</a><a  href="dashboard.html">Danh sách</a></nav></div></header>
-<main id="main" class="shell"><section class="page-title"><span class="eyebrow">HP12 · LOCALSTORAGE</span><h1>Viết về một miền đất Việt Nam</h1><p>Viết một bài giới thiệu địa danh hoặc nét văn hóa mà em yêu thích. Xem trước và lưu bản nháp trên trình duyệt; đây không phải thao tác đăng bài công khai.</p></section>
-<div class="editor-grid"><section class="panel"><h2>Nội dung bản nháp</h2><label class="field">Tiêu đề<input id="draft-title" maxlength="100" placeholder="Ví dụ: Sắc màu đèn lồng Hội An"></label><label class="field">Nội dung<textarea id="draft-body" rows="10" maxlength="3000" placeholder="Em quan sát thấy điều gì? Vẻ đẹp và câu chuyện văn hóa nào em muốn giới thiệu? Nguồn thông tin ở đâu?"></textarea></label><div class="actions"><button id="save" class="btn" type="button">Lưu bản nháp</button><button id="restore" class="btn ghost" type="button">Khôi phục</button><button id="clear" class="btn danger" type="button">Xóa nháp</button></div><p id="draft-status" role="status" aria-live="polite" class="muted"></p></section>
-<section class="panel preview"><span class="eyebrow">XEM TRƯỚC</span><h2 id="preview-title">Tiêu đề sẽ xuất hiện tại đây</h2><p id="preview-body" class="reading-text">Nội dung được hiển thị dưới dạng văn bản an toàn.</p></section></div>
-<p class="notice">Lưu ý: localStorage chỉ lưu trong trình duyệt/thiết bị này và có thể bị xóa khi xóa dữ liệu trang. Người xem website công khai không thấy bản nháp của em.</p></main><footer class="footer"><div class="shell footer-flex"><p>HP12 · Sản phẩm tổng kết Figma + HTML + CSS + JavaScript</p><p>Nội dung minh họa · Không sử dụng dữ liệu cá nhân</p></div></footer>
-<script src="scripts/site.js" defer></script><script src="scripts/editor.js" defer></script></body></html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#8b2331">
+  <meta name="description" content="Sắc Việt — Blog khám phá văn hóa, di sản và địa danh Việt Nam. Dự án cuối khóa thiết kế và lập trình website bằng Figma, HTML, CSS và JavaScript.">
+  <title>Viết bản nháp | Sắc Việt — HP12</title>
+  <link rel="icon" type="image/svg+xml" href="assets/brand.svg">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Chuyển tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Sắc Việt — Trang chủ"><img src="assets/brand.svg" width="40" height="40" alt="" aria-hidden="true"><span><strong>SẮC</strong> VIỆT</span></a>
+    <button class="nav-toggle" type="button" aria-label="Mở menu điều hướng" aria-controls="site-navigation" aria-expanded="false" data-nav-toggle>
+      <span class="nav-lines" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+    <nav class="site-nav" id="site-navigation" aria-label="Điều hướng chính">
+      <a href="index.html">Trang chủ</a>
+<a href="index.html#kham-pha">Khám phá</a>
+<a href="dashboard.html">Thư viện bài viết</a>
+<a href="about.html">Về Sắc Việt</a>
+      <a class="mobile-compose" href="editor.html">✎ Viết bản nháp</a>
+    </nav>
+    <a class="nav-cta" href="editor.html"><span aria-hidden="true">✎</span> Viết bản nháp</a>
+  </div>
+</header>
+<main id="main">
+<section class="inner-hero editor-top"><div class="container"><nav class="breadcrumb" aria-label="Đường dẫn trang"><a href="index.html">Trang chủ</a><span aria-hidden="true">›</span><span>Viết bản nháp</span></nav><span class="eyebrow">GÓC KỂ CHUYỆN CỦA EM</span><h1>Viết một câu chuyện <em>về Việt Nam</em></h1><p>Chia sẻ cảm nhận của em về một địa danh, một truyền thống hay nét đẹp văn hóa. Bản nháp chỉ được lưu trên trình duyệt của em.</p></div></section>
+<section class="container editor-section">
+ <div class="editor-layout">
+  <div class="editor-panel"><div class="editor-panel-top"><div><span class="mini-label">TRÌNH SOẠN THẢO</span><h2>✎ &nbsp; Bài viết của em</h2></div><span class="draft-badge" id="storage-indicator">Bản nháp cục bộ</span></div>
+   <label for="draft-title" class="input-label">Tiêu đề bài viết <span class="required">*</span></label>
+   <input id="draft-title" type="text" maxlength="100" placeholder="Ví dụ: Một chiều bên sông Hoài ở Hội An" autocomplete="off">
+   <p class="field-note"><span>Gợi ý: nêu rõ địa danh hoặc nét văn hóa em muốn giới thiệu.</span><span id="title-count">0 / 100</span></p>
+   <label for="draft-body" class="input-label">Nội dung câu chuyện <span class="required">*</span></label>
+   <textarea id="draft-body" rows="13" maxlength="3000" placeholder="Địa danh nằm ở đâu? Điều gì khiến nơi đó đặc biệt? Em muốn chia sẻ nét đẹp hoặc câu chuyện văn hóa nào? Hãy ghi lại nguồn thông tin em đã tham khảo..."></textarea>
+   <p class="field-note"><span>Hãy viết bằng ngôn ngữ của em và kiểm tra thông tin.</span><span id="body-count">0 / 3000</span></p>
+   <div class="editor-actions"><button id="save" class="button button-red" type="button">▣ &nbsp; Lưu bản nháp</button><button id="restore" class="button button-outline" type="button">↶ &nbsp; Khôi phục</button><button id="clear" class="button button-soft" type="button">✕ &nbsp; Xóa nháp</button></div>
+   <p id="draft-status" class="status-line" role="status" aria-live="polite">Nội dung đang được chỉnh sửa trên trang, chưa tự động lưu.</p>
+  </div>
+  <aside class="preview-panel" aria-label="Xem trước bài viết"><div class="preview-topline"><span>◉ &nbsp; XEM TRƯỚC BÀI VIẾT</span><span class="preview-live">● Trực tiếp</span></div>
+  <img src="assets/vn-hero.svg" alt="Minh họa câu chuyện Việt Nam" class="preview-cover"><div class="preview-content"><span class="eyebrow">CÂU CHUYỆN CỦA EM</span><h2 id="preview-title">Tiêu đề sẽ xuất hiện ở đây...</h2><p id="preview-body">Hãy bắt đầu viết để thấy nội dung hiển thị tại đây. Dữ liệu được hiển thị dưới dạng văn bản an toàn.</p></div></aside>
+ </div>
+ <div class="privacy-note"><span aria-hidden="true">ⓘ</span><p><b>Lưu nháp không có nghĩa là đăng bài.</b> Dữ liệu chỉ lưu trên trình duyệt và thiết bị hiện tại; người xem website công khai không nhìn thấy bản nháp. Việc xóa dữ liệu trình duyệt cũng có thể xóa nháp.</p></div>
+</section>
+</main>
+<footer class="site-footer">
+ <div class="container footer-inner">
+  <div><a href="index.html" class="footer-logo">✿ SẮC VIỆT</a><p>Cùng khám phá và trân trọng những câu chuyện Việt Nam.</p></div>
+  <div class="footer-links"><a href="index.html#kham-pha">Khám phá</a><a href="about.html">Về dự án</a><a href="editor.html">Lưu nháp</a><a href="dashboard.html">Thư viện</a></div>
+ </div>
+ <div class="container footer-bottom"><span>HP12 · Figma → HTML/CSS → JavaScript → GitHub Pages</span><span>Hình SVG tự thiết kế · Nội dung mẫu phục vụ học tập</span></div>
+</footer>
+<script src="scripts/site.js" defer></script>
+<script src="scripts/editor.js" defer></script>
+</body></html>

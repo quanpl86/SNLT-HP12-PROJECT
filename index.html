@@ -1,11 +1,98 @@
 <!doctype html>
-<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Blog khám phá văn hóa và địa danh Việt Nam, sản phẩm cuối khóa Figma, HTML, CSS và JavaScript.">
-<title>Trang chủ | Sắc Việt – HP12</title><link rel="icon" href="assets/brand.svg" type="image/svg+xml"><link rel="stylesheet" href="styles/main.css"></head>
-<body><a class="skip" href="#main">Bỏ qua điều hướng</a><header class="header"><div class="shell nav"><a class="brand" href="index.html"><img src="assets/brand.svg" alt="" width="34" height="34"><span>Sắc <b>Việt</b></span></a><nav aria-label="Điều hướng chính"><a aria-current="page" href="index.html">Trang chủ</a><a  href="about.html">Giới thiệu</a><a  href="post.html?id=post-01">Bài viết</a><a  href="editor.html">Trình soạn thảo</a><a  href="dashboard.html">Danh sách</a></nav></div></header>
-<main id="main" class="shell"><section class="hero"><div><span class="eyebrow">SẮC VIỆT · DỰ ÁN CUỐI KHÓA HP12</span><h1>Khám phá <em>vẻ đẹp Việt Nam</em> qua từng câu chuyện.</h1><p>Hành trình đến những miền di sản, danh thắng và nét văn hóa Việt. Website được học sinh thiết kế với Figma, xây dựng bằng HTML/CSS và làm tương tác bằng JavaScript.</p><div class="actions"><a class="btn" href="#posts">Khám phá bài viết</a><a class="btn ghost" href="editor.html">Thử lưu bản nháp</a></div></div><img class="hero-art" src="assets/vn-hero.svg" alt="Minh họa phố cổ, núi đá vôi và nét văn hóa Việt Nam"></section>
-<section id="posts" class="section"><div class="section-head"><div><span class="eyebrow">CÂU CHUYỆN TỪ CÁC MIỀN ĐẤT</span><h2>Di sản và sắc màu Việt Nam</h2></div><p>Tìm kiếm địa danh, khám phá văn hóa và lọc bài viết theo chủ đề.</p></div>
-<div class="controls"><label class="field">Tìm theo tiêu đề<input id="search" type="search" placeholder="Ví dụ: Hội An, Huế, áo dài" autocomplete="off"></label><label class="field">Danh mục<select id="category"><option value="all">Tất cả</option><option value="Di sản">Di sản</option><option value="Thiên nhiên">Thiên nhiên</option><option value="Văn hóa">Văn hóa</option></select></label></div><p id="result-count" class="muted" role="status" aria-live="polite"></p>
-<div id="post-list" class="cards" aria-label="Danh sách bài viết"></div><p id="empty" class="empty" hidden>Không tìm thấy bài viết phù hợp. Hãy thử từ khóa khác.</p></section>
-<section class="banner"><h2>Cùng gìn giữ và kể câu chuyện Việt Nam</h2><p>Tìm hiểu, quan sát, ghi chép và chia sẻ những giá trị đẹp của quê hương bằng một sản phẩm công nghệ.</p><a class="btn" href="about.html">Về dự án Sắc Việt</a></section></main><footer class="footer"><div class="shell footer-flex"><p>HP12 · Sản phẩm tổng kết Figma + HTML + CSS + JavaScript</p><p>Nội dung minh họa · Không sử dụng dữ liệu cá nhân</p></div></footer>
-<script src="scripts/site.js" defer></script><script src="scripts/posts.js" defer></script><script src="scripts/home.js" defer></script></body></html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#8b2331">
+  <meta name="description" content="Sắc Việt — Blog khám phá văn hóa, di sản và địa danh Việt Nam. Dự án cuối khóa thiết kế và lập trình website bằng Figma, HTML, CSS và JavaScript.">
+  <title>Khám phá văn hóa và địa danh Việt Nam | Sắc Việt — HP12</title>
+  <link rel="icon" type="image/svg+xml" href="assets/brand.svg">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Chuyển tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Sắc Việt — Trang chủ"><img src="assets/brand.svg" width="40" height="40" alt="" aria-hidden="true"><span><strong>SẮC</strong> VIỆT</span></a>
+    <button class="nav-toggle" type="button" aria-label="Mở menu điều hướng" aria-controls="site-navigation" aria-expanded="false" data-nav-toggle>
+      <span class="nav-lines" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+    <nav class="site-nav" id="site-navigation" aria-label="Điều hướng chính">
+      <a href="index.html" aria-current="page">Trang chủ</a>
+<a href="index.html#kham-pha">Khám phá</a>
+<a href="dashboard.html">Thư viện bài viết</a>
+<a href="about.html">Về Sắc Việt</a>
+      <a class="mobile-compose" href="editor.html">✎ Viết bản nháp</a>
+    </nav>
+    <a class="nav-cta" href="editor.html"><span aria-hidden="true">✎</span> Viết bản nháp</a>
+  </div>
+</header>
+<main id="main">
+<section class="home-hero">
+ <div class="hero-wash hero-wash-a" aria-hidden="true"></div><div class="hero-wash hero-wash-b" aria-hidden="true"></div>
+ <div class="container home-hero-inner">
+   <div class="hero-copy">
+     <span class="eyebrow hero-kicker"><span class="lotus-mark" aria-hidden="true">❀</span> HÀNH TRÌNH VĂN HÓA VIỆT NAM</span>
+     <h1>SẮC <em>VIỆT</em></h1>
+     <p class="hero-subtitle">Mỗi miền đất, một câu chuyện</p>
+     <p class="hero-description">Cùng dạo bước qua những di sản, cảnh sắc thiên nhiên và nét văn hóa độc đáo của Việt Nam — bằng một website do chính học sinh thiết kế và lập trình.</p>
+     <div class="hero-buttons"><a class="button button-red" href="#kham-pha">Khám phá ngay <span aria-hidden="true">↗</span></a><a class="button button-outline" href="about.html">Tìm hiểu dự án <span aria-hidden="true">→</span></a></div>
+     <div class="hero-metrics"><div><b>06</b><span>Câu chuyện</span></div><div><b>03</b><span>Chủ đề</span></div><div><b>04</b><span>Học phần</span></div></div>
+   </div>
+   <div class="hero-media">
+     <div class="hero-photo-frame"><img src="assets/vn-hero.svg" alt="Minh họa Việt Nam với kiến trúc phố cổ, núi đá vôi và đèn lồng" width="720" height="405"></div>
+     <div class="hero-sticker hero-sticker-top"><span>✦</span><span>Khám phá<br><b>Việt Nam</b></span></div>
+     <div class="hero-sticker hero-sticker-bottom"><span aria-hidden="true">✿</span> Gìn giữ & lan tỏa</div>
+   </div>
+ </div>
+ <div class="hero-bottom-pattern" aria-hidden="true">❀ &nbsp; ❀ &nbsp; ❀</div>
+</section>
+<section class="explore-section" id="kham-pha" aria-labelledby="explore-heading">
+ <div class="container">
+   <div class="section-title-area">
+     <div><span class="eyebrow">KHÁM PHÁ SẮC MÀU VIỆT NAM</span><h2 id="explore-heading">Những câu chuyện <em>đáng nhớ</em></h2><p>Tìm kiếm địa danh yêu thích và lựa chọn chủ đề phù hợp.</p></div>
+     <div class="ornament" aria-hidden="true">❀</div>
+   </div>
+   <div class="filter-panel" role="search" aria-label="Tìm kiếm bài viết">
+     <div class="search-field"><span class="search-icon" aria-hidden="true">⌕</span><label class="visually-hidden" for="search">Tìm theo tên địa danh hoặc tiêu đề bài viết</label><input id="search" type="search" placeholder="Tìm Hội An, Huế, Tràng An..." autocomplete="off"><button id="clear-search" class="clear-search" type="button" hidden aria-label="Xóa từ khóa tìm kiếm">×</button></div>
+     <div class="filter-divider" aria-hidden="true"></div>
+     <div class="filter-chips" aria-label="Lọc danh mục bài viết">
+       <button class="filter-chip is-active" data-category="all" aria-pressed="true" type="button">✿ &nbsp; Tất cả</button>
+       <button class="filter-chip" data-category="Di sản" aria-pressed="false" type="button">⌂ &nbsp; Di sản</button>
+       <button class="filter-chip" data-category="Thiên nhiên" aria-pressed="false" type="button">△ &nbsp; Thiên nhiên</button>
+       <button class="filter-chip" data-category="Văn hóa" aria-pressed="false" type="button">❀ &nbsp; Văn hóa</button>
+     </div>
+   </div>
+   <div class="results-toolbar"><p id="result-count" role="status" aria-live="polite">Đang tải bài viết...</p><span class="results-note">Các miền di sản · Cảnh quan · Văn hóa</span></div>
+   <div id="post-list" class="post-grid" aria-label="Danh sách bài viết"></div>
+   <div id="empty" class="empty-state" hidden><span aria-hidden="true">⌕</span><h3>Chưa tìm thấy câu chuyện phù hợp</h3><p>Thử tìm theo tên địa danh khác hoặc chọn “Tất cả”.</p><button id="reset-filters" type="button" class="button button-red">Hiện tất cả bài viết</button></div>
+ </div>
+</section>
+<section class="story-band" aria-labelledby="story-heading">
+ <div class="container story-band-inner">
+  <div><span class="eyebrow eyebrow-light">KHƠI NGUỒN CẢM HỨNG</span><h2 id="story-heading">Bạn muốn kể câu chuyện <em>về Việt Nam?</em></h2><p>Mỗi chuyến đi, một truyền thống hay một góc quê hương đều có thể trở thành bài viết thú vị.</p><a class="button button-cream" href="editor.html">✎ &nbsp; Tạo bản nháp đầu tiên</a></div>
+  <div class="story-band-symbol" aria-hidden="true">❀</div>
+ </div>
+</section>
+<section class="learning-section">
+ <div class="container">
+  <div class="section-title-area"><div><span class="eyebrow">DỰ ÁN TỐT NGHIỆP HP12</span><h2>Từ ý tưởng đến <em>website thật</em></h2><p>Bốn học phần kết nối thành một sản phẩm có thể giới thiệu và trải nghiệm.</p></div></div>
+  <div class="learning-grid">
+    <div class="learning-step"><span>01</span><b>Figma</b><p>Thiết kế giao diện và luồng trải nghiệm.</p></div>
+    <div class="learning-step"><span>02</span><b>HTML & CSS</b><p>Xây dựng bố cục, phong cách và nội dung.</p></div>
+    <div class="learning-step"><span>03</span><b>JavaScript</b><p>Làm giao diện tương tác theo hành động.</p></div>
+    <div class="learning-step"><span>04</span><b>GitHub Pages</b><p>Kiểm thử, hoàn thiện và chia sẻ website.</p></div>
+  </div>
+ </div>
+</section>
+</main>
+<footer class="site-footer">
+ <div class="container footer-inner">
+  <div><a href="index.html" class="footer-logo">✿ SẮC VIỆT</a><p>Cùng khám phá và trân trọng những câu chuyện Việt Nam.</p></div>
+  <div class="footer-links"><a href="index.html#kham-pha">Khám phá</a><a href="about.html">Về dự án</a><a href="editor.html">Lưu nháp</a><a href="dashboard.html">Thư viện</a></div>
+ </div>
+ <div class="container footer-bottom"><span>HP12 · Figma → HTML/CSS → JavaScript → GitHub Pages</span><span>Hình SVG tự thiết kế · Nội dung mẫu phục vụ học tập</span></div>
+</footer>
+<script src="scripts/site.js" defer></script>
+<script src="scripts/posts.js" defer></script><script src="scripts/home.js" defer></script>
+</body></html>

@@ -1,7 +1,48 @@
 <!doctype html>
-<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Blog khám phá văn hóa và địa danh Việt Nam, sản phẩm cuối khóa Figma, HTML, CSS và JavaScript.">
-<title>Danh sách bài viết | Sắc Việt – HP12</title><link rel="icon" href="assets/brand.svg" type="image/svg+xml"><link rel="stylesheet" href="styles/main.css"></head>
-<body><a class="skip" href="#main">Bỏ qua điều hướng</a><header class="header"><div class="shell nav"><a class="brand" href="index.html"><img src="assets/brand.svg" alt="" width="34" height="34"><span>Sắc <b>Việt</b></span></a><nav aria-label="Điều hướng chính"><a  href="index.html">Trang chủ</a><a  href="about.html">Giới thiệu</a><a  href="post.html?id=post-01">Bài viết</a><a  href="editor.html">Trình soạn thảo</a><a aria-current="page" href="dashboard.html">Danh sách</a></nav></div></header>
-<main id="main" class="shell"><section class="page-title"><span class="eyebrow">HP12 · TÁI SỬ DỤNG DỮ LIỆU</span><h1>Thư viện khám phá Việt Nam</h1><p>Danh sách các bài viết về địa danh và văn hóa được dùng chung với Home. Đây là dữ liệu mẫu, không phải hệ thống đăng bài công khai.</p></section><div id="dashboard-items" class="list-panel"></div><p id="dashboard-empty" class="empty" hidden>Chưa có bài viết mẫu.</p><a class="btn ghost" href="editor.html">Viết bản nháp cục bộ</a></main><footer class="footer"><div class="shell footer-flex"><p>HP12 · Sản phẩm tổng kết Figma + HTML + CSS + JavaScript</p><p>Nội dung minh họa · Không sử dụng dữ liệu cá nhân</p></div></footer>
-<script src="scripts/site.js" defer></script><script src="scripts/posts.js" defer></script><script src="scripts/dashboard.js" defer></script></body></html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#8b2331">
+  <meta name="description" content="Sắc Việt — Blog khám phá văn hóa, di sản và địa danh Việt Nam. Dự án cuối khóa thiết kế và lập trình website bằng Figma, HTML, CSS và JavaScript.">
+  <title>Thư viện bài viết | Sắc Việt — HP12</title>
+  <link rel="icon" type="image/svg+xml" href="assets/brand.svg">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Chuyển tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Sắc Việt — Trang chủ"><img src="assets/brand.svg" width="40" height="40" alt="" aria-hidden="true"><span><strong>SẮC</strong> VIỆT</span></a>
+    <button class="nav-toggle" type="button" aria-label="Mở menu điều hướng" aria-controls="site-navigation" aria-expanded="false" data-nav-toggle>
+      <span class="nav-lines" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+    <nav class="site-nav" id="site-navigation" aria-label="Điều hướng chính">
+      <a href="index.html">Trang chủ</a>
+<a href="index.html#kham-pha">Khám phá</a>
+<a href="dashboard.html" aria-current="page">Thư viện bài viết</a>
+<a href="about.html">Về Sắc Việt</a>
+      <a class="mobile-compose" href="editor.html">✎ Viết bản nháp</a>
+    </nav>
+    <a class="nav-cta" href="editor.html"><span aria-hidden="true">✎</span> Viết bản nháp</a>
+  </div>
+</header>
+<main id="main">
+<section class="inner-hero dashboard-top"><div class="container"><span class="eyebrow">THƯ VIỆN SẮC VIỆT</span><h1>Tuyển tập <em>địa danh & văn hóa</em></h1><p>Khám phá toàn bộ những câu chuyện trong Blog và tìm cảm hứng cho bài viết của riêng em.</p></div></section>
+<section class="container library-section">
+ <div class="stats-grid"><article><span>✿</span><strong id="stats-total">06</strong><p>Bài viết</p></article><article><span>⌂</span><strong id="stats-heritage">02</strong><p>Di sản</p></article><article><span>△</span><strong id="stats-nature">02</strong><p>Thiên nhiên</p></article><article><span>❀</span><strong id="stats-culture">02</strong><p>Văn hóa</p></article></div>
+ <div class="section-title-area"><div><span class="eyebrow">TẤT CẢ BÀI VIẾT</span><h2>Danh sách <em>khám phá</em></h2><p>Dữ liệu mẫu được dùng chung với trang chủ; không phải hệ thống quản trị hay đăng bài công khai.</p></div><a href="editor.html" class="button button-red">✎ Viết bản nháp</a></div>
+ <div class="library-list" id="dashboard-items" aria-label="Danh sách bài viết"></div>
+ <p class="empty-state" id="dashboard-empty" hidden>Chưa có bài viết mẫu.</p>
+</section>
+</main>
+<footer class="site-footer">
+ <div class="container footer-inner">
+  <div><a href="index.html" class="footer-logo">✿ SẮC VIỆT</a><p>Cùng khám phá và trân trọng những câu chuyện Việt Nam.</p></div>
+  <div class="footer-links"><a href="index.html#kham-pha">Khám phá</a><a href="about.html">Về dự án</a><a href="editor.html">Lưu nháp</a><a href="dashboard.html">Thư viện</a></div>
+ </div>
+ <div class="container footer-bottom"><span>HP12 · Figma → HTML/CSS → JavaScript → GitHub Pages</span><span>Hình SVG tự thiết kế · Nội dung mẫu phục vụ học tập</span></div>
+</footer>
+<script src="scripts/site.js" defer></script>
+<script src="scripts/posts.js" defer></script><script src="scripts/dashboard.js" defer></script>
+</body></html>

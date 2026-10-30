@@ -1,7 +1,54 @@
 <!doctype html>
-<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Blog khám phá văn hóa và địa danh Việt Nam, sản phẩm cuối khóa Figma, HTML, CSS và JavaScript.">
-<title>Đọc bài viết | Sắc Việt – HP12</title><link rel="icon" href="assets/brand.svg" type="image/svg+xml"><link rel="stylesheet" href="styles/main.css"></head>
-<body><a class="skip" href="#main">Bỏ qua điều hướng</a><header class="header"><div class="shell nav"><a class="brand" href="index.html"><img src="assets/brand.svg" alt="" width="34" height="34"><span>Sắc <b>Việt</b></span></a><nav aria-label="Điều hướng chính"><a  href="index.html">Trang chủ</a><a  href="about.html">Giới thiệu</a><a aria-current="page" href="post.html?id=post-01">Bài viết</a><a  href="editor.html">Trình soạn thảo</a><a  href="dashboard.html">Danh sách</a></nav></div></header>
-<main id="main" class="shell"><article class="reading" id="article"><p class="eyebrow" id="article-category">KHÁM PHÁ VIỆT NAM</p><h1 id="article-title">Đang tải bài viết…</h1><p class="muted" id="article-date"></p><img id="article-image" class="article-cover" src="assets/vn-hoian.svg" alt="Minh họa bài viết"><p id="article-content" class="reading-text"></p><p id="source-container" class="source-note" hidden>Nguồn tham khảo: <a id="article-source" href="#" target="_blank" rel="noopener noreferrer">Đọc thêm tại UNESCO</a></p><p id="article-warning" class="notice" hidden>Không tìm thấy bài viết. Hãy quay lại trang chủ.</p><a class="btn ghost" href="index.html">← Về trang chủ</a></article></main><footer class="footer"><div class="shell footer-flex"><p>HP12 · Sản phẩm tổng kết Figma + HTML + CSS + JavaScript</p><p>Nội dung minh họa · Không sử dụng dữ liệu cá nhân</p></div></footer>
-<script src="scripts/site.js" defer></script><script src="scripts/posts.js" defer></script><script src="scripts/post.js" defer></script></body></html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#8b2331">
+  <meta name="description" content="Sắc Việt — Blog khám phá văn hóa, di sản và địa danh Việt Nam. Dự án cuối khóa thiết kế và lập trình website bằng Figma, HTML, CSS và JavaScript.">
+  <title>Bài viết | Sắc Việt — HP12</title>
+  <link rel="icon" type="image/svg+xml" href="assets/brand.svg">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Chuyển tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Sắc Việt — Trang chủ"><img src="assets/brand.svg" width="40" height="40" alt="" aria-hidden="true"><span><strong>SẮC</strong> VIỆT</span></a>
+    <button class="nav-toggle" type="button" aria-label="Mở menu điều hướng" aria-controls="site-navigation" aria-expanded="false" data-nav-toggle>
+      <span class="nav-lines" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+    <nav class="site-nav" id="site-navigation" aria-label="Điều hướng chính">
+      <a href="index.html">Trang chủ</a>
+<a href="index.html#kham-pha">Khám phá</a>
+<a href="dashboard.html">Thư viện bài viết</a>
+<a href="about.html">Về Sắc Việt</a>
+      <a class="mobile-compose" href="editor.html">✎ Viết bản nháp</a>
+    </nav>
+    <a class="nav-cta" href="editor.html"><span aria-hidden="true">✎</span> Viết bản nháp</a>
+  </div>
+</header>
+<main id="main">
+<div class="container article-shell">
+ <nav class="breadcrumb" aria-label="Đường dẫn trang"><a href="index.html">Trang chủ</a><span aria-hidden="true">›</span><a href="dashboard.html">Thư viện</a><span aria-hidden="true">›</span><span id="crumb-title">Bài viết</span></nav>
+ <article class="article-layout">
+  <header class="article-heading"><span class="eyebrow" id="article-category">ĐANG KHÁM PHÁ</span><h1 id="article-title">Đang tải bài viết...</h1><p class="article-excerpt" id="article-excerpt"></p><div class="article-meta"><span>✦ Bài viết minh họa</span><span id="article-date"></span></div></header>
+  <div class="article-media"><img id="article-image" src="assets/vn-hoian.svg" alt="Minh họa văn hóa Việt Nam" width="720" height="405"></div>
+  <div class="article-body"><p class="article-content" id="article-content"></p>
+  <div id="source-container" class="source-note" hidden><span aria-hidden="true">↗</span><div><b>Nguồn thông tin tham khảo</b><a id="article-source" href="#" target="_blank" rel="noopener noreferrer">Xem nguồn</a></div></div>
+  <p id="article-warning" class="notice warning" hidden>Không tìm thấy bài viết. Vui lòng kiểm tra đường dẫn hoặc quay lại thư viện.</p>
+  <div class="article-actions"><a href="index.html#kham-pha" class="button button-outline">← Khám phá thêm</a><a href="editor.html" class="button button-red">✎ Viết bản nháp của em</a></div>
+  </div>
+ </article>
+ <section class="related-section" id="related-section" hidden><div class="section-title-area"><div><span class="eyebrow">CÓ THỂ BẠN QUAN TÂM</span><h2>Cùng khám phá <em>tiếp nhé</em></h2></div></div><div id="related-posts" class="post-grid post-grid-compact"></div></section>
+</div>
+</main>
+<footer class="site-footer">
+ <div class="container footer-inner">
+  <div><a href="index.html" class="footer-logo">✿ SẮC VIỆT</a><p>Cùng khám phá và trân trọng những câu chuyện Việt Nam.</p></div>
+  <div class="footer-links"><a href="index.html#kham-pha">Khám phá</a><a href="about.html">Về dự án</a><a href="editor.html">Lưu nháp</a><a href="dashboard.html">Thư viện</a></div>
+ </div>
+ <div class="container footer-bottom"><span>HP12 · Figma → HTML/CSS → JavaScript → GitHub Pages</span><span>Hình SVG tự thiết kế · Nội dung mẫu phục vụ học tập</span></div>
+</footer>
+<script src="scripts/site.js" defer></script>
+<script src="scripts/posts.js" defer></script><script src="scripts/post.js" defer></script>
+</body></html>
