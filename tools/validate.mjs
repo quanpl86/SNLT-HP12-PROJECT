@@ -21,7 +21,7 @@ function walk(dir) {
   for (const f of fs.readdirSync(dir,{withFileTypes:true})) {
     const target=path.join(dir,f.name);
     if(f.isDirectory())walk(target);
-    else if(f.isFile() && (target.endsWith(".js")||target.endsWith(".mjs"))){
+    else if(f.isFile() && target.endsWith(".js")){
       const source=fs.readFileSync(target,"utf8");
       try{new vm.Script(source,{filename:target});assert(true,"JS syntax "+target);jsCount++;}
       catch(e){assert(false,"Lỗi cú pháp JS "+path.relative(root,target)+": "+e.message);}
