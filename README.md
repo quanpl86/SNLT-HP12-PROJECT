@@ -7,6 +7,16 @@ Bộ hồ sơ nguồn quản lý học phần nằm tại **[curriculum/README.m
 
 **Quy tắc R&D:** B10 xuất bản GitHub Pages (LO08–LO09; K14–K15), B11 kiểm thử/sửa lỗi không có công nghệ mới. HP11 giữ nguyên khung LMS cũ. Tên sản phẩm/câu chuyện được đặt trong chủ đề **Sắc Việt**.
 
+## Website thành phẩm — Bản giao diện Sắc Việt
+Website gốc đã được hoàn thiện với **5 trang đồng bộ giao diện**, tìm kiếm tiếng Việt, lọc danh mục, xem bài chi tiết, Editor lưu nháp cục bộ và thư viện bài viết. CSS/JavaScript thuần, chạy trên localhost và phù hợp GitHub Pages tĩnh.
+
+- [Cấu trúc mã nguồn và quyết định UI](docs/UI_IMPLEMENTATION.md)
+- [20 trường hợp kiểm thử sản phẩm hoàn chỉnh](docs/FINAL_PROJECT_QA.md)
+- [Bộ kiểm thử Node.js](tests/search.test.cjs) (chạy `node --test tests/*.test.cjs`)
+- [Hướng dẫn phát hành GitHub Pages](docs/RELEASE_GUIDE.md)
+
+**Lưu ý:** Hình mockup dùng để truyền đạt hướng thiết kế; giao diện website chạy thật dùng SVG có sẵn trong repository và **không** có chức năng đăng bài công khai.
+
 ## Chạy ngay
 - Mở `index.html` với VS Code Live Server hoặc chạy `python -m http.server 8000` ở thư mục gốc rồi truy cập `http://localhost:8000/`.
 - Không cần npm, tài khoản hoặc Internet để chạy cục bộ.
