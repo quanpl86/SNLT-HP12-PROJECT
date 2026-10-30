@@ -1,0 +1,26 @@
+name: HP12 browser smoke
+on:
+  push:
+  pull_request:
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Playwright only for CI tests
+        run: npm install --no-save playwright@1.56.1
+      - name: Install Chromium for browser validation
+        run: npx playwright install --with-deps chromium
+      - name: Check desktop/mobile interactions
+        run: node tests/browser-smoke.cjs
+      - name: Upload screenshots and QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sac-viet-screenshots
+          path: test-artifacts/
+          if-no-files-found: ignore
