@@ -1,5 +1,9 @@
 # Kiến thức áp dụng — B08
 
+**Bối cảnh “Sắc Việt”:** Chuẩn bị repository mã nguồn giới thiệu văn hóa và địa danh Việt Nam; kiểm tra hình ảnh minh họa và nguồn trích dẫn trước khi công khai.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Mục tiêu:** Tổ chức mã nguồn vào repository GitHub và tạo ít nhất một commit có mô tả rõ; đọc được lịch sử thay đổi.
 
 **Kế thừa:** HP10: cấu trúc tệp website; HP11: dự án JavaScript; HP12 B01–B07: các chức năng đã kiểm thử.

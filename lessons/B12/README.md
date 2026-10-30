@@ -1,5 +1,9 @@
 # HP12 – B12: Dự án cuối khóa — Chia sẻ dự án
 
+**Bối cảnh “Sắc Việt”:** Trình diễn quá trình dùng Figma, HTML/CSS, JavaScript để tạo và chia sẻ Blog Sắc Việt về văn hóa và địa danh Việt Nam.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Sản phẩm:** Four-HP Web Portfolio
 
 ## Giới thiệu và bối cảnh

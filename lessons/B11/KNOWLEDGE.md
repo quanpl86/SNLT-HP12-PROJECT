@@ -1,5 +1,9 @@
 # Kiến thức áp dụng — B11
 
+**Bối cảnh “Sắc Việt”:** Kiểm thử bản Sắc Việt đã công bố, sửa lỗi nội dung/giao diện/tìm kiếm và phát hành phiên bản cải tiến.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Mục tiêu:** Kiểm thử phiên bản công khai, xử lý lỗi ưu tiên và cập nhật phiên bản đã phát hành.
 
 **Kế thừa:** HP12 B10 phát hành và B09 kiểm thử; kỹ năng gỡ lỗi từ HP10–HP11.

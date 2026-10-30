@@ -1,5 +1,9 @@
 # HP12 – B11: Dự án cuối khóa — Kiểm thử và cải tiến sau xuất bản
 
+**Bối cảnh “Sắc Việt”:** Kiểm thử bản Sắc Việt đã công bố, sửa lỗi nội dung/giao diện/tìm kiếm và phát hành phiên bản cải tiến.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Sản phẩm:** Published Blog Improved v1.1
 
 ## Giới thiệu và bối cảnh

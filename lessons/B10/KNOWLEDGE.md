@@ -1,5 +1,9 @@
 # Kiến thức áp dụng — B10
 
+**Bối cảnh “Sắc Việt”:** Hoàn thiện và xuất bản website Sắc Việt qua GitHub Pages ở bài 10; không tạo thêm chức năng ngoài yêu cầu.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Mục tiêu:** Tích hợp website đã chuẩn bị và thực hiện phát hành GitHub Pages, kiểm tra URL được GitHub cung cấp.
 
 **Kế thừa:** HP09: Figma; HP10: HTML/CSS; HP11: JS; HP12 B08 repository, B09 pre-release QA.

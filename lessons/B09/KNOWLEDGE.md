@@ -1,5 +1,9 @@
 # Kiến thức áp dụng — B09
 
+**Bối cảnh “Sắc Việt”:** Kiểm thử tìm Hội An/Huế, lưu nháp giới thiệu địa danh và các chức năng đã học.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Mục tiêu:** Kiểm thử và sửa lỗi chức năng lưu nháp, tìm kiếm và bộ lọc trước khi xuất bản.
 
 **Kế thừa:** HP12 B05, B06, B07 và B08; HP09 User Flow; HP10 kiểm thử giao diện.

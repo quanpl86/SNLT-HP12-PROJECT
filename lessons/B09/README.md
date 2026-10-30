@@ -1,5 +1,9 @@
 # HP12 – B09: Ôn tập 2 — Kiểm thử chức năng
 
+**Bối cảnh “Sắc Việt”:** Kiểm thử tìm Hội An/Huế, lưu nháp giới thiệu địa danh và các chức năng đã học.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Sản phẩm:** Pre-release QA Pack
 
 ## Giới thiệu và bối cảnh

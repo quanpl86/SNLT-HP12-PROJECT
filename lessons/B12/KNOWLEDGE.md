@@ -1,5 +1,9 @@
 # Kiến thức áp dụng — B12
 
+**Bối cảnh “Sắc Việt”:** Trình diễn quá trình dùng Figma, HTML/CSS, JavaScript để tạo và chia sẻ Blog Sắc Việt về văn hóa và địa danh Việt Nam.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Mục tiêu:** Trình diễn Web Blog, giải thích quá trình tích hợp Figma → HTML/CSS → JavaScript → phát hành, và phản tư về cải tiến.
 
 **Kế thừa:** Toàn bộ hành trình HP09–HP12 và kết quả các dự án B01–B11.

@@ -1,5 +1,9 @@
 # HP12 – B07: Lọc bài viết theo danh mục
 
+**Bối cảnh “Sắc Việt”:** Phân loại Hội An và Huế thuộc Di sản, Hạ Long – Cát Bà thuộc Thiên nhiên, múa rối nước thuộc Văn hóa.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Sản phẩm:** Category Filter v1
 
 ## Giới thiệu và bối cảnh

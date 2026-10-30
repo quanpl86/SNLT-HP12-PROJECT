@@ -1,5 +1,9 @@
 # HP12 – B10: Dự án cuối khóa — Hoàn thiện và xuất bản Web Blog
 
+**Bối cảnh “Sắc Việt”:** Hoàn thiện và xuất bản website Sắc Việt qua GitHub Pages ở bài 10; không tạo thêm chức năng ngoài yêu cầu.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Sản phẩm:** First Published Blog v1.0
 
 ## Giới thiệu và bối cảnh

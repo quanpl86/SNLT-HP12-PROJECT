@@ -1,5 +1,9 @@
 # HP12 – B08: Quản lý dự án với GitHub
 
+**Bối cảnh “Sắc Việt”:** Chuẩn bị repository mã nguồn giới thiệu văn hóa và địa danh Việt Nam; kiểm tra hình ảnh minh họa và nguồn trích dẫn trước khi công khai.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Sản phẩm:** GitHub Release Starter
 
 ## Giới thiệu và bối cảnh

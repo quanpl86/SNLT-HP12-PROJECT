@@ -1,5 +1,9 @@
 # Kiến thức áp dụng — B07
 
+**Bối cảnh “Sắc Việt”:** Phân loại Hội An và Huế thuộc Di sản, Hạ Long – Cát Bà thuộc Thiên nhiên, múa rối nước thuộc Văn hóa.
+
+**Lưu ý:** Nội dung chủ đề không làm thay đổi mục tiêu JavaScript, GitHub và kiểm thử của bài. Học sinh sử dụng dữ liệu mẫu, không đăng thông tin cá nhân.
+
 **Mục tiêu:** Tái sử dụng tìm kiếm và điều kiện để lọc Blog Card theo danh mục, xử lý trường hợp không có kết quả.
 
 **Kế thừa:** HP12 B06: tìm kiếm và duyệt Card; HP11: if, vòng lặp; HP09: bố cục Blog Card.
