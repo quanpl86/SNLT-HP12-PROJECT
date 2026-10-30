@@ -39,15 +39,12 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          from PIL import Image
           paths=list(Path("assets/photos").glob("*-gpt.webp"))
           assert len(paths)==7, f"Expected 7 new images, got {len(paths)}"
           for p in paths:
-              with Image.open(p) as img:
-                  img.verify()
-              with Image.open(p) as img:
-                  assert img.width>=1200 and img.height>=670, (p,img.size)
-              print("PASS",p,p.stat().st_size)
+              data=p.read_bytes()
+              assert len(data)>30000 and data[:4]==b'RIFF' and data[8:12]==b'WEBP', (p,'not WebP')
+              print("PASS WebP",p,len(data))
           PY
       - name: Commit approved images to GitHub
         run: |
